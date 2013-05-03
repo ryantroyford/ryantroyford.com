@@ -2,16 +2,35 @@
 ---
 <!DOCTYPE html>
 <html>
+
+<!-- lovingly handcrafted with jekyll, out in the open. ryantroyford.com is a motherfucking ryan troy ford joint. -->
+
 <head>
-  <title>Site Title {% if page.url != '/index.html' %}| {{page.title}}{% endif %}</title>
+  <title>design + illustration + animation {% if page.url != '/index.html' %}| {{page.title}}{% endif %}</title>
   <meta charset='UTF-8'/>
   <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
   <link rel='shortcut icon' href='{{site.baseurl}}/img/favicon.ico' type='image/x-icon' />
-  <link href='{{site.baseurl}}/site.css' rel='stylesheet' />
+  <link href='{{site.baseurl}}/css/reset.css' rel='stylesheet' />
+  <link href='{{site.baseurl}}/css/styles.css' rel='stylesheet' />
+  <link href='{{site.baseurl}}/css/base.css' rel='stylesheet' />
+  <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700' rel='stylesheet' type='text/css'>
 </head>
 <body>
-  <div class='container'>
+  <div class='top-bar col6 margin3'>
+   <div class='logo'><a href='{{site.baseurl}}/index.html'></a></div>
+   <div class='nav'>
+   	<ul>
+   	 <li><a href='http://www.ryantroyford.tumblr.com'>blog</a></li>
+   	 <li><a href='{{site.baseurl}}/about.html'>info</a></li>
+   	 <li><a href='#'>store</a></li>
+   	</ul>
+   </div>
+  </div>
+  <div class='container col8 margin2'>
     {{content}}
+  </div>
+  <div class='col8 margin2 footer'>
+    <p>copyright ryan troy ford 1969-20whenever</p>
   </div>
   <script src='{{site.baseurl}}/site.js'></script>
 </body>
