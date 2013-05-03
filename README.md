@@ -1,4 +1,5 @@
-fresh-start
-===========
+personal portfolio for design, illustration, animation, what have you.
 
-Extremely barebones starting point for responsive sites built on Jekyll.
+-----------------------------
+
+ryantroyford@gmail.com
