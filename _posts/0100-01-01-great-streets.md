@@ -6,4 +6,6 @@ title: GreatStreets
 splash: /img/projects/greatstreets-th.jpg
 ---
 
+![great streets](/img/projects/great-streets.jpg)
+
 here's a logo i made for the DC government.
