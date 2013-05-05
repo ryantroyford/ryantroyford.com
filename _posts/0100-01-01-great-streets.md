@@ -1,6 +1,6 @@
 ---
 layout: default
-category: blog3
+category: blog2
 permalink: /great-streets
 title: GreatStreets
 splash: /img/projects/greatstreets-th.jpg
