@@ -1,10 +1,9 @@
 ---
 layout: default
-category: blog1
+category: blog3
 permalink: /mapbox-intro
 title: MapBox Intro
 splash: /img/projects/mapbox-intro-th.jpg
-weight: 3
 ---
 
 <div class='vid-frame' style="width: 100%; height: 0px; padding-bottom:56.25%; position:relative;">
