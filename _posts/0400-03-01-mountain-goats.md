@@ -3,7 +3,7 @@ layout: default
 category: blog3
 permalink: /mountain-goats-poster
 title: Mountain Goats Poster
-splash: /img/projects/mtn-goats-th.jpg
+splash: /img/projects/mtn-goats-2-th.jpg
 ---
 
 ![mountain goats](../img/projects/mtn-goats.jpg)
