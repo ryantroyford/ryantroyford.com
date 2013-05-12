@@ -3,7 +3,7 @@ layout: default
 category: blog1
 permalink: /mapbox-cartoon
 title: MapBox Cartoon
-splash: /img/projects/mapbox-cartoon-th.jpg
+splash: img/projects/mapbox-cartoon-th.jpg
 ---
 
 <div class='vid-frame' style="width: 100%; height: 0px; padding-bottom:56.25%; position:relative;">
