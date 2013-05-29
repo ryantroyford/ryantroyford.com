@@ -15,7 +15,7 @@
 		width: 243px;
 		height: 154px;
 		/* background-image: url({{site.baseurl}}/img/logo.jpg); */
-		background-image: url(../img/logo.jpg);
+		background-image: url(../img/logo-2.jpg);
 		opacity:1;
 
      	transition: opacity .25s ease-in-out;
