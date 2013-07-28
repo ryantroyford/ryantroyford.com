@@ -1,6 +1,6 @@
 ---
 layout: default
-category: blog1
+category: blog2
 permalink: /mapbox-cartoon
 title: MapBox Cartoon
 splash: /img/projects/mapbox-cartoon-th.jpg
