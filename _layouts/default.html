@@ -133,23 +133,31 @@ TRAMPS LIKE US, BABY WE WERE BORN TO <RUN_C:\Program files\WENDY.EXE>
   <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700' rel='stylesheet' type='text/css'>
 </head>
 <body>
-  <div class='top-bar col6 margin3'>
-   <div class='logo'><a href='/'></a></div>
-   <div class='nav'>
-   	<ul>
-   	 <li><a href='http://www.ryantroyford.tumblr.com'>blog</a></li>
-   	 <li><a href='{{site.baseurl}}/about.html'>info</a></li>
-   	 <li><a href='http://ryantroyford.bigcartel.com/'>store</a></li>
-   	</ul>
-   </div>
-  </div>
-  <div class='container col8 margin2'>
+  <div class='col12 work-body clearfix'>
     {{content}}
   </div>
-  <div class='col8 margin2 footer'>
-    <p>copyright ryan troy ford 1969-20whenever</p>
+
+  <!--
+  <div class='col12 footer'>
+    <p>copyright ryan troy ford 4:20 - 1969</p>
   </div>
-  <script src='{{site.baseurl}}/site.js'></script>
+  -->
+
+  <script src="{{site.baseurl}}/jquery-1.10.2.min.js"></script>
+  <script src="{{site.baseurl}}/jquery.isotope.min.js"></script>
+
+  <script type="text/javascript">
+    $(function(){
+      
+      var $container = $('.work-body');
+      
+      $container.isotope({
+        itemSelector: '.work-block'
+      });
+      
+    });
+  </script>
+
   <script type="text/javascript">
 
   var _gaq = _gaq || [];
