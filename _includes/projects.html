@@ -1,3 +1,3 @@
 {% for item in site.categories.projects %}
-  <a href='{{site.baseurl}}{{item.url}}' class='work-block' style='height:{{item.height}};'><img src="{{item.splash}}" /></a>
+  <a href='{{site.baseurl}}{{item.url}}' class='border {{item.width}} work-block'><img src="{{item.splash}}" class='splash'/></a>
 {% endfor %}

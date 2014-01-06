@@ -133,20 +133,34 @@ TRAMPS LIKE US, BABY WE WERE BORN TO <RUN_C:\Program files\WENDY.EXE>
   <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700' rel='stylesheet' type='text/css'>
 </head>
 <body>
-  <div class='col12 work-body clearfix'>
-    {{content}}
+  <div class='col10 margin1 main-wrap clearfix'>
+
+    <div class='header'>
+      <div class='logo'><a href='{{site.baseurl}}/'><img src='{{site.baseurl}}/img/logo.jpg' /></a></div>
+      <div class='nav'>
+        <ul>
+          <li><a href="#"><img src="{{site.baseurl}}/img/script/nav-blog.png"></a></li>
+          <li><a href="{{site.baseurl}}/info.html"><img src="{{site.baseurl}}/img/script/nav-info.png"></a></li>
+          <li><a href="#"><img src="{{site.baseurl}}/img/script/nav-store.png"></a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class='content-body'>
+      {{content}}
+    </div>
+
+    <div class='col12 footer'>
+      <img src="{{site.baseurl}}/img/script/copyright.png">
+      <!-- <p>copyright ryan troy ford 420 - 1969</p> -->
+    </div>
+
   </div>
 
   <!--
-  <div class='col12 footer'>
-    <p>copyright ryan troy ford 4:20 - 1969</p>
-  </div>
-  -->
-
-  <script src="{{site.baseurl}}/jquery-1.10.2.min.js"></script>
-  <script src="{{site.baseurl}}/jquery.isotope.min.js"></script>
-
-  <script type="text/javascript">
+  <script src="jquery-1.10.2.min.js"></script>
+  <script src="jquery.isotope.min.js"></script>
+  <script>
     $(function(){
       
       var $container = $('.work-body');
@@ -157,6 +171,7 @@ TRAMPS LIKE US, BABY WE WERE BORN TO <RUN_C:\Program files\WENDY.EXE>
       
     });
   </script>
+  -->
 
   <script type="text/javascript">
 

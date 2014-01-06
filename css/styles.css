@@ -1,13 +1,79 @@
-.work-body{
+/* ~~~~~~~~~~~~~~~~~ GLOBAL ~~~~~~~~~~~~~~~~~ */
+
+.main-wrap{
+	text-align: center;
 }
 
 .work-block{
-	display: block;
-	width: 200px;
-	margin:5px;
-	border:solid 1px red;
+	padding: 20px;
+	text-align: center;
 }
 
-.a{ height: 100px; background-color: red;}
-.b{ height: 200px; background-color: green;}
-.c{ height: 400px; background-color: blue;}
+.one 	{width:100%; float: left;}
+.two	{width: 50%; float: left;}
+
+.splash{
+	display: block;
+	margin: 0px auto 0px auto;
+}
+
+.content-body{
+	margin:20px 0 80px 0;
+}
+
+.border{
+	border: 1px solid red;
+}
+
+/* ~~~~~~~~~~~~~~~~~ HEADER ~~~~~~~~~~~~~~~~~ */
+
+.header{
+	margin:40px 0 40px 0;
+}
+
+.logo a{
+	opacity: 1;
+	transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+}
+
+.logo a:hover{
+	opacity: .6;
+}
+
+.nav ul li{
+	display: inline;
+	margin:30px;
+}
+
+.nav ul li img{
+	opacity: .4;
+	transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+}
+
+	.nav ul li img:hover{
+		opacity: .2;
+	}
+
+/* ~~~~~~~~~~~~~~~~~ FOOTER ~~~~~~~~~~~~~~~~~ */
+
+.footer{
+	margin-bottom: 20px;
+}
+
+.footer img{
+	opacity: .2;
+}
+
+/* ~~~~~~~~~~~~~~~~~ INFO ~~~~~~~~~~~~~~~~~ */
+
+.about-img{
+	margin: 40px 0 80px 0;
+}
+
+.about-text{
+	opacity: .8;
+}
