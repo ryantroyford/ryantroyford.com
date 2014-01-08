@@ -9,8 +9,10 @@
 	text-align: center;
 }
 
+/*
 .one 	{width:100%; float: left;}
 .two	{width: 50%; float: left;}
+*/
 
 .splash{
 	display: block;
@@ -77,4 +79,17 @@
 
 .about-text{
 	opacity: .8;
+	margin-bottom: 80px;
+}
+
+.friends{
+	width: 50%;
+	float: left;
+	text-align: left;
+}
+
+.songs{
+	width: 50%;
+	float: right;
+	text-align: left;
 }
