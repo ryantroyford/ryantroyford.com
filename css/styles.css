@@ -7,20 +7,23 @@
 .work-block{
 	padding: 20px;
 	text-align: center;
+	width:300px;
+}
+
+.lone-rager{
+	width: 100%;
 }
 
 /*
-.one 	{width:100%; float: left;}
-.two	{width: 50%; float: left;}
-*/
-
 .splash{
 	display: block;
 	margin: 0px auto 0px auto;
 }
+*/
 
 .content-body{
 	margin:20px 0 0 0;
+	text-align: center;
 }
 
 .border{
