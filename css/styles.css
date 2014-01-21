@@ -84,6 +84,12 @@
 	text-align: left;
 }
 
+/*
+.friends img{
+	max-width:75%;
+}
+*/
+
 .songs{
 	width: 50%;
 	float: right;
