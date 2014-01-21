@@ -7,23 +7,12 @@
 .work-block{
 	padding: 20px;
 	text-align: center;
-<<<<<<< HEAD
 	width:300px;
-=======
-	float:left;
->>>>>>> 7f0a298d1f12354d7f23541dd64c4414b59728ca
 }
 
 .lone-rager{
 	width: 100%;
 }
-
-/*
-.splash{
-	display: block;
-	margin: 0px auto 0px auto;
-}
-*/
 
 .content-body{
 	margin:20px 0 0 0;
