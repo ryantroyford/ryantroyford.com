@@ -8,7 +8,7 @@
 	display: block;
 	padding: 10px;
 	text-align: center;
-	width:300px;
+	width:325px;
 }
 
 .lone-rager{
@@ -84,14 +84,23 @@
 	text-align: left;
 }
 
-/*
+
 .friends img{
-	max-width:75%;
+	padding: 30px;
+	max-width: 100%;
 }
-*/
 
 .songs{
 	width: 50%;
 	float: right;
 	text-align: left;
+}
+
+.songs img{
+	padding: 20px 45px 10px 45px;
+	max-width: 100%;
+}
+
+.roster{
+	margin-left: 30px;
 }
