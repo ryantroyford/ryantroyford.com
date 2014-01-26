@@ -1,0 +1,123 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url(../img/brickwall-inv.jpg);
+  background-attachment: fixed;
+}
+
+@font-face {
+    font-family: 'central_union_mission_filleRg';
+    src: url('../fonts/centralunionmission-filled-webfont.eot');
+    src: url('../fonts/centralunionmission-filled-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/centralunionmission-filled-webfont.woff') format('woff'),
+         url('../fonts/centralunionmission-filled-webfont.ttf') format('truetype'),
+         url('../fonts/centralunionmission-filled-webfont.svg#central_union_mission_filleRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'central_union_mission_neonRg';
+    src: url('../fonts/centralunionmission-neon-webfont.eot');
+    src: url('../fonts/centralunionmission-neon-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/centralunionmission-neon-webfont.woff') format('woff'),
+         url('../fonts/centralunionmission-neon-webfont.ttf') format('truetype'),
+         url('../fonts/centralunionmission-neon-webfont.svg#central_union_mission_neonRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1{
+  font-family: 'central_union_mission_filleRg';
+  font-weight: normal;
+  text-transform: uppercase;
+  line-height: 100px;
+  color: #eeeeee;
+  font-size: 90px;
+  margin-bottom: 0px;
+}
+
+  h1:hover{
+    font-family: 'central_union_mission_neonRg';
+  }
+
+.top-paragraph{margin-bottom: 0px;}
+
+.neon{
+  font-family: 'central_union_mission_neonRg';
+  font-weight: normal;
+}
+
+  .neon:hover{
+    font-family: 'central_union_mission_filleRg';
+  }
+
+.mid-row{
+  font-size: 125px;
+}
+
+.row-1{}
+  .row-1-inner{text-align: center; padding: 100px 0px;}
+
+.row-2{
+  z-index: 100;
+  text-align: center;
+  background-color: hsla(170, 0%, 45%, .8);
+  background-image: url(../img/projects/central-union/central-union-mission-wide.jpg);
+  background-size: cover;
+  background-position: 50%;
+  color: #fff;
+  height: 450px;
+  padding: 0;
+}
+  .row-2-inner{
+    text-align: center;
+  }
+.row2-text{
+  padding: 20px;
+  color: #131313;
+  font-weight: normal;
+}
+.row2-img{
+  width: 100%;
+}
+
+.row-3{}
+  .row-3-inner{padding: 100px 0px;}
+  .row-3-inner h1{font-size: 75px; line-height: 70px;}
+
+.preview-text{padding:15px;}
+.numbers{margin-top: 20px;}
+
+.row-4{background-color: #e2d8d7;}
+  .row-4-inner{padding: 50px 0px; text-align: center;}
+  .row-4-inner h1{
+    font-size: 150%;
+  }
+
+.button{
+  width: 41.6666%;
+  padding: 20px;
+  background-color: #d5ceca;
+  color: #333;
+}
+
+  .source{float: left;}
+  .download{float: right;}
+
+.row-5{}
+  .row-5-inner{padding: 100px 25px; color:#e2d8d7;}
+
+.row-6{text-align: center; background-color: hsla(170, 0%, 45%, .1);}
+  .row-6-inner{padding:25px 25px;}
+
+
+@media only screen and (max-width: 680px) {
+  h1{font-size: 65px; line-height: 70px;}
+  .mid-row{font-size: 92px;}
+  .row-1-inner p{width: 66.6666%; margin-left: 16.6666%;}
+  .row-4-inner{padding:10px 0px; font-size: 30px;}
+  .button{padding: 0px; margin:0px; width: 100%;}
+  .download{margin-top:10px;}
+  .numbers{display: none;}
+}
