@@ -9,6 +9,7 @@
 	padding: 10px;
 	text-align: center;
 	width:310px;
+	/* margin: -10px; */
 }
 
 .lone-rager{
@@ -78,6 +79,11 @@
 	margin-bottom: 80px;
 }
 
+.lists{
+	text-align: center;
+	margin: 0 auto 0 auto;
+}
+
 .friends{
 	width: 50%;
 	float: left;
@@ -85,20 +91,16 @@
 }
 
 
-.friends img{
+.friends img, .songs img{
 	padding: 30px;
-	max-width: 100%;
+	max-width: 325px;
+	margin:0 auto 0 auto;
 }
 
 .songs{
 	width: 50%;
 	float: right;
 	text-align: left;
-}
-
-.songs img{
-	padding: 20px 45px 10px 45px;
-	max-width: 100%;
 }
 
 .roster{

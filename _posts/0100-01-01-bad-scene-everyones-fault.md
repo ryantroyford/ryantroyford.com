@@ -14,4 +14,4 @@ splash: img/projects/bad-scene/splash.jpg
 
 three of my good buddies asked me to design them a poster for their pop-punk & emo DJ night at one of my favorite bars in DC. how am i supposed to turn that down?
 
-designed and hand-screen printed on 25" x 19" French Speckletone white. 
+designed and hand-screen printed on 25" x 19" French Speckletone white. run of 20-ish.
