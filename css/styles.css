@@ -24,6 +24,10 @@
 	border: 1px solid red;
 }
 
+iframe{
+	margin-bottom: 50px;
+}
+
 /* ~~~~~~~~~~~~~~~~~ HEADER ~~~~~~~~~~~~~~~~~ */
 
 .header{
@@ -43,7 +47,7 @@
 
 .nav ul li{
 	display: inline;
-	margin:20px;
+	margin:16px;
 }
 
 .nav ul li img{
@@ -79,15 +83,22 @@
 	margin-bottom: 80px;
 }
 
+.about-text-alt{
+	display: none;
+}
+
 .lists{
 	text-align: center;
 	margin: 0 auto 0 auto;
 }
 
+	.lists p{
+		font-weight: bold;
+	}
+
 .friends{
 	width: 50%;
 	float: left;
-	text-align: left;
 }
 
 
@@ -100,9 +111,22 @@
 .songs{
 	width: 50%;
 	float: right;
-	text-align: left;
+}
+
+.friends, .songs{
+	padding:30px;
 }
 
 .roster{
 	margin-left: 30px;
+}
+
+/* ~~~~~~~~~~~~~~~~~ MEDIA QUERIES ~~~~~~~~~~~~~~~~~ */
+
+@media only screen and (max-width: 680px) {
+	body{padding:10px;}
+
+	.about-text-alt{display: block;}
+	.about-text{display: none;}
+	.about-img{margin: 40px 0 20px 0;}
 }
