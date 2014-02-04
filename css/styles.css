@@ -25,7 +25,18 @@
 }
 
 iframe{
-	margin-bottom: 50px;
+	margin-bottom: 20px;
+}
+
+
+.attic-img{
+	float:left;
+	padding:20px;
+}
+
+.attic-desc{
+	margin-top: 20px;
+	margin-bottom: 40px;
 }
 
 /* ~~~~~~~~~~~~~~~~~ HEADER ~~~~~~~~~~~~~~~~~ */
@@ -80,7 +91,7 @@ iframe{
 
 .about-text{
 	opacity: .8;
-	margin-bottom: 80px;
+	margin-bottom: 50px;
 }
 
 .about-text-alt{
@@ -118,7 +129,6 @@ iframe{
 }
 
 .roster{
-	margin-left: 30px;
 }
 
 /* ~~~~~~~~~~~~~~~~~ MEDIA QUERIES ~~~~~~~~~~~~~~~~~ */
