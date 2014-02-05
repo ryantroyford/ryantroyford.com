@@ -58,7 +58,7 @@ iframe{
 
 .nav ul li{
 	display: inline;
-	margin:16px;
+	margin:15px;
 }
 
 .nav ul li img{
@@ -131,12 +131,21 @@ iframe{
 .roster{
 }
 
+.social ul li{
+	display: inline-block;
+	margin:10px;
+}
+
 /* ~~~~~~~~~~~~~~~~~ MEDIA QUERIES ~~~~~~~~~~~~~~~~~ */
 
 @media only screen and (max-width: 680px) {
+
 	body{padding:10px;}
 
 	.about-text-alt{display: block;}
 	.about-text{display: none;}
 	.about-img{margin: 40px 0 20px 0;}
+
+	.social{margin-top: 40px;}
+
 }
