@@ -1,150 +1,151 @@
-/*************************************/
-/************ HEADER BAR *************/
-/*************************************/
+/* ~~~~~~~~~~~~~~~~~ GLOBAL ~~~~~~~~~~~~~~~~~ */
 
-.top-bar{
-	margin: 30px 0px 30px 0px;
-}
-
-.logo{
-}
-
-	.logo a{
-		margin: 0px auto 20px auto;
-		display: block;
-		width: 243px;
-		height: 154px;
-		/* background-image: url({{site.baseurl}}/img/logo.jpg); */
-		background-image: url(../img/logo-2.jpg);
-		opacity:1;
-
-     	transition: opacity .25s ease-in-out;
-     	-moz-transition: opacity .25s ease-in-out;
-     	-webkit-transition: opacity .25s ease-in-out;
-	}
-
-		.logo a:hover{
-			opacity: .7;
-		}
-
-.nav{
+.main-wrap{
 	text-align: center;
-	text-transform: uppercase;
-	font-size: 12px;
-	font-weight: bold;
-	/* font-family: 'Droid Serif', serif; */
+}
+
+.work-block{
+	display: block;
+	padding: 10px;
+	text-align: center;
+	width:310px;
+	/* margin: -10px; */
+}
+
+.lone-rager{
+	width: 100%;
+}
+
+.content-body{
+	margin:20px 0 0 0;
+}
+
+.border{
+	border: 1px solid red;
+}
+
+iframe{
+	margin-bottom: 20px;
+}
+
+
+.attic-img{
+	float:left;
+	padding:20px;
+}
+
+.attic-desc{
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+/* ~~~~~~~~~~~~~~~~~ HEADER ~~~~~~~~~~~~~~~~~ */
+
+.header{
+	margin:40px 0 40px 0;
+}
+
+.logo a{
+	opacity: 1;
+	transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+}
+
+.logo a:hover{
+	opacity: .6;
 }
 
 .nav ul li{
 	display: inline;
-	margin: 0px 20px 0px 20px;
+	margin:15px;
 }
 
-.breacrumb{
-	text-decoration: underline;
+.nav ul li img{
+	opacity: .4;
+	transition: opacity .15s ease-in-out;
+    -moz-transition: opacity .15s ease-in-out;
+    -webkit-transition: opacity .15s ease-in-out;
 }
 
-/*************************************/
-/************** CONTENT **************/
-/*************************************/
+	.nav ul li img:hover{
+		opacity: .2;
+	}
 
-.content-body{
-	width: 100%;
-	text-align: center;
-}
-
-.content-body a{
-    opacity: 1;
-     transition: opacity .25s ease-in-out;
-     -moz-transition: opacity .25s ease-in-out;
-     -webkit-transition: opacity .25s ease-in-out;
-}
-
-.content-body a:hover{
-	opacity: 0.6;
-}
-
-.content-column{
-	float:left; 
-	width:33.3333%;
-}
-
-.content-column a{
-	display: block;
-}
-
-.column-pad{
-	padding-left:10px;
-	padding-right: 10px;
-}
-
-.block{
-	float: left;
-	width: 100%;
-	margin-bottom: 4px;
-}
-
-.big-img{
-	margin-bottom: 40px;
-}
-
-.single-copy{
-	text-align: left;
-}
-
-.vid-frame{
-	margin-bottom: 40px;
-}
-
-/* 
-
-~~~~ css for portfolio item titles/descriptions ~~~~
-
-.item-head{ width: 100%; display: block;}
-.item-desc{}
-
-*/
-
-.social{
-	font-size: 14px;
-	text-align: center;
-	margin-bottom:40px;
-}
-
-.link-list{
-	margin-top: 40px;
-	line-height: 15px;
-}
-
-.link-list p{
-	font-size: 12px;
-	margin-bottom: 10px;}
-
-.link-info{
-	margin: 60px auto 20px auto;
-	text-align: center;
-}
-
-/************************************/
-/************** FOOTER **************/
-/************************************/
+/* ~~~~~~~~~~~~~~~~~ FOOTER ~~~~~~~~~~~~~~~~~ */
 
 .footer{
-	margin:80px 0px 50px 0px;
+	margin-top: 80px;
+	margin-bottom: 20px;
+}
+
+.footer img{
+	opacity: .2;
+}
+
+/* ~~~~~~~~~~~~~~~~~ INFO ~~~~~~~~~~~~~~~~~ */
+
+.about-img{
+	margin: 40px 0 80px 0;
+}
+
+.about-text{
+	opacity: .8;
+	margin-bottom: 50px;
+}
+
+.about-text-alt{
+	display: none;
+}
+
+.lists{
 	text-align: center;
+	margin: 0 auto 0 auto;
 }
 
-.footer p{
-	font-size: 12px;
+	.lists p{
+		font-weight: bold;
+	}
+
+.friends{
+	width: 50%;
+	float: left;
 }
 
-/****************************************************/
-/************** SPECIFIC MEDIA QUERIES **************/
-/****************************************************/
+
+.friends img, .songs img{
+	padding: 30px;
+	max-width: 325px;
+	margin:0 auto 0 auto;
+}
+
+.songs{
+	width: 50%;
+	float: right;
+}
+
+.friends, .songs{
+	padding:30px;
+}
+
+.roster{
+}
+
+.social ul li{
+	display: inline-block;
+	margin:10px;
+}
+
+/* ~~~~~~~~~~~~~~~~~ MEDIA QUERIES ~~~~~~~~~~~~~~~~~ */
 
 @media only screen and (max-width: 680px) {
-	.nav ul li{
-		margin: 0px 15px 0px 15px;
-	}
-	
+
+	body{padding:10px;}
+
+	.about-text-alt{display: block;}
+	.about-text{display: none;}
+	.about-img{margin: 40px 0 20px 0;}
+
+	.social{margin-top: 40px;}
+
 }

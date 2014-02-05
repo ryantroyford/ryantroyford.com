@@ -1,15 +1,12 @@
 ---
-layout: default
-category: blog2
-permalink: /mapbox-cartoon
-title: MapBox Cartoon
-splash: /img/projects/mapbox-cartoon-th.jpg
+layout: post
+category: projects
+url: /mapbox-cartoon
+splash: img/projects/mbx-promo/splash.jpg
 ---
 
-<div class='vid-frame' style="width: 100%; height: 0px; padding-bottom:56.25%; position:relative;">
-<iframe src="http://player.vimeo.com/video/63403523" width="100%" height="100%" style="position:absolute" frameborder="0" webkitAllowFullScreen="webkitAllowFullScreen" mozallowfullscreen="mozallowfullscreen" allowFullScreen="allowFullScreen"> </iframe>
-</div>
+<iframe src="http://player.vimeo.com/video/63403523" width='100%' height="450" frameborder="0" webkitAllowFullScreen="webkitAllowFullScreen" mozallowfullscreen="mozallowfullscreen" allowFullScreen="allowFullScreen"> </iframe>
 
-when i first started at MapBox, my first task was to create a fun, engaging video that, in broad strokes, visualized what we do. so here it is. i hope it's obvious from the video, but it was a blast to make. 
+when i started at MapBox, my first task was to create a lively video that, in broad strokes, visualized what we do. so here it is. i hope it's obvious from the video, but it was a blast to make. 
 
 [here](http://mapbox.com/blog/mapping-monsters/) is a blog post about the process.

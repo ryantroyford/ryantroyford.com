@@ -132,8 +132,8 @@ TRAMPS LIKE US, BABY WE WERE BORN TO <RUN_C:\Program files\WENDY.EXE>
   <link href='{{site.baseurl}}/css/base.css' rel='stylesheet' />
   <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700' rel='stylesheet' type='text/css'>
 
-  <script src="{{site.baseurl}}/jquery-1.10.2.min.js"></script>
-  <script src="{{site.baseurl}}/jquery.isotope.min.js"></script>
+  <script src="jquery-1.10.2.min.js"></script>
+  <script src="jquery.isotope.min.js"></script>
 
 </head>
 <body>
@@ -161,15 +161,20 @@ TRAMPS LIKE US, BABY WE WERE BORN TO <RUN_C:\Program files\WENDY.EXE>
 
   </div>
 
-<script>
-  var $container = $('.content-body');
+<!--
+  <script>
+    $(document).ready(function() {
 
-  $container.imagesLoaded( function(){
-    $container.isotope({
-        itemSelector : '.work-block',
+      window.setTimeout(function() {
+        var $container = $('.content-body');
+        console.log('in isotope start');
+        $container.isotope({
+          itemSelector: '.work-block'
+        });
+      }, 300);  
     });
-  });
-</script>
+  </script>
+-->
 
 <script type="text/javascript">
 
@@ -185,6 +190,6 @@ TRAMPS LIKE US, BABY WE WERE BORN TO <RUN_C:\Program files\WENDY.EXE>
 
 </script>
 
-<!-- this website may be the popsicle stick picture frame of websites, but it was lovingly handcrafted by ryan, out in the open, using github, jekyll, cheap beer, vegan food, and tom waits records. i love you. i know it's easier said than done, but you should too. -->
+<!-- this website may be the popsicle stick picture frame of websites, but it was lovingly handcrafted by ryan, out in the open, using github, jekyll, cheap beer, vegan food, and tom waits records. i love you. -->
 
 </body>
