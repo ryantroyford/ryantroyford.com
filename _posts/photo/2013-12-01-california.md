@@ -83,3 +83,9 @@ _my beautiful friends Trevor, Kevin, and Risa._
 
 ![032](../img/photo/2013-california/032.jpg)
 
+---
+
+all in all, this trip was one of the best experiences i've been fortunate enough to have thus far. it made me want to strive even harder to achieve my dream of traveling constantly and see as much of this world as i can in my lifetime. 
+
+in addition to 9 gigs of digital stills, i shot six rolls of film and plenty of video. i'm working on compiling it all, so stay turned for that as well. 
+
