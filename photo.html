@@ -1,0 +1,8 @@
+---
+layout: photo
+title: photo
+---
+
+{% for item in site.categories.photo %}
+  <a href='{{site.baseurl}}{{item.url}}' class='work-block'>{{item.title}}</a>
+{% endfor %}
