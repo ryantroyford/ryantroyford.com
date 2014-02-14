@@ -83,6 +83,12 @@ iframe{
 	opacity: .2;
 }
 
+/* ~~~~~~~~~~~~~~~~~ PHOTO ~~~~~~~~~~~~~~~~~ */
+
+.photo-roll{
+	display: block;
+}
+
 /* ~~~~~~~~~~~~~~~~~ INFO ~~~~~~~~~~~~~~~~~ */
 
 .about-img{
