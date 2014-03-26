@@ -12,10 +12,6 @@
 	/* margin: -10px; */
 }
 
-.lone-rager{
-	width: 100%;
-}
-
 .content-body{
 	margin:20px 0 0 0;
 }
@@ -84,6 +80,10 @@ iframe{
 }
 
 /* ~~~~~~~~~~~~~~~~~ PHOTO ~~~~~~~~~~~~~~~~~ */
+
+.photo-story{
+	margin-bottom: 40px;
+}
 
 .photo-roll{
 	display: block;
