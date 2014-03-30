@@ -7,11 +7,11 @@ permalink: /photo/2013-14-learning-film
 splash: /img/photo/2013-14-learning-film/teaser.jpg
 ---
 
-i've long had an affinity for analog design practices, so it was only a matter of time before i felt the pull to the non-digital side of photography, too. i inherited a Minolta XG-1, and bought an XG-7 (with the help of my girlfriend and some less-than-sober ebay purchases, respectively), and gave it a "shot." that's an excellent pun.
+i've long had an affinity for analog design practices, so it was only a matter of time before i felt pulled to the non-digital side of photography, too. i inherited a Minolta XG-1, and bought an XG-7 (from my girlfriend and a less-than-sober ebay purchase, respectively), and gave it a "shot." that's an excellent pun.
 
-upon developing the first rolls with my XG-7, it was quickly apparent that it's seals were corroded and there was a considerable amount of light leaking in (as you'll see). i guess that's what i get for buying a camera for $18 drunk at 2am. i've since fixed it, but i don't think the accidental expose ruins the photos affected. just adds some character. 
+upon developing the first rolls with my XG-7, it was quickly apparent that it's seals were corroded and there was a considerable amount of light leaking in (as you'll see). i guess that's what i get for buying a camera for $18 drunk at 2am and not inspecting it before shooting. i've since fixed it, but i don't think the accidental exposure ruins the photos affected. just adds some character. 
 
-anyway, it's a wonderful excercise in patience, and there's a much closer connection with the final product when you have to know what you're doing before you snap the shutter. looking forward to shooting many more rolls in the future. 
+anyway, film has been a wonderful excercise in patience, and there's a much closer connection with the final product when you have to know what you're doing before you snap the shutter. looking forward to shooting many more rolls in the future. 
 
 ---
 
