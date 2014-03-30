@@ -19,7 +19,7 @@ anyway, film has been a wonderful excercise in patience, and there's a much clos
 _Seattle, Washington_
 
 ![002](../../img/photo/2013-14-learning-film/002.jpg)
-_this is the last photo i developed of my grandmother before she passed away. it's nice to have a tangible photo to hold._
+_this is the last photo i developed of my grandmother before she passed away. it's nice to have something tangible to hold on to._
 
 ![003](../../img/photo/2013-14-learning-film/003.jpg)
 _an analog version of a photo taken somewhere between San Diego and San Francisco. see the digital version [here](http://ryantroyford.com/photo/2013-west-coast/)._
