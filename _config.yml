@@ -2,3 +2,4 @@ auto: true
 server: true
 baseurl:
 permalink: /:title
+markdown: kramdown
