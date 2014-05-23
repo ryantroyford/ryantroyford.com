@@ -92,7 +92,7 @@ iframe{
 /* ~~~~~~~~~~~~~~~~~ INFO ~~~~~~~~~~~~~~~~~ */
 
 .about-img{
-	margin: 40px 0 80px 0;
+	margin: 40px 0 20px 0;
 }
 
 .about-text{
@@ -134,12 +134,17 @@ iframe{
 	padding:30px;
 }
 
-.roster{
-}
-
 .social ul li{
 	display: inline-block;
 	margin:10px;
+}
+
+.freelance ul{
+	list-style: none;
+}
+
+.green{
+	color:#84b63c;
 }
 
 /* ~~~~~~~~~~~~~~~~~ MEDIA QUERIES ~~~~~~~~~~~~~~~~~ */
