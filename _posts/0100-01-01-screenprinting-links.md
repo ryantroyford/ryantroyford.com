@@ -22,4 +22,4 @@ this tutorial goes through making your own screen, which i don't necessarily rec
 
  ------
 
- it should go without saying that if you have any questions, don't hesitate to [email me](ryantroyford@gmail.com). 
+ it should go without saying that if you have any questions, don't hesitate to <a href="mailto:ryantroyford@gmail.com">email me</a>. 
