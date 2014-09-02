@@ -1,6 +1,6 @@
 ---
 layout: photo
-title: 2013-2014 learning film
+title: 2013-2014 analog amateur
 category: photo
 url: /2013-learning-film
 permalink: /photo/2013-14-learning-film
