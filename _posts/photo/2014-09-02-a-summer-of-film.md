@@ -42,7 +42,7 @@ _a girl who is good to me._
 ![13](../../img/photo/2014-film-year/13.jpg)
 
 ![14](../../img/photo/2014-film-year/14.jpg)
-_near the end of my artist residency in Green River, i went for a walk to the edge of town while the sun was setting. i came across this bird who had gotten it's foot caught in the bunched strands of a telephone wire. it trashed & struggled, losing feathers and panting, to no avail. it was truly pitiful in every sense of the word, and i was helpless to free it. i kept walking, trying not to think about it. on my way home, roughly 15 minutes later, i passed the bird again. just as i walked under the wire to take another look, the bird freed itself and flew away in the fading light. mother nature certainly knows how to write a happy ending._
+_near the end of my artist residency in Green River, i went for a walk to the edge of town while the sun was setting. i came across this bird who had gotten it's foot caught in the bunched strands of a telephone wire. it thrashed & struggled, losing feathers and panting, to no avail. it was truly pitiful in every sense of the word, and i was helpless to free it. i kept walking, trying not to think about it. on my way home, roughly 15 minutes later, i passed the bird again. just as i walked under the wire to take another look, the bird freed itself and flew away in the fading light. mother nature certainly knows how to write a happy ending._
 
 ![15](../../img/photo/2014-film-year/15.jpg)
 
