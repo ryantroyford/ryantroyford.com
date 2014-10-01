@@ -2,5 +2,8 @@
 layout: default
 ---
 
-{% include projects.html %}
-
+{% for item in site.categories.project %}
+  <a href='{{site.baseurl}}{{item.url}}' class='project'>
+  	<img src='{{item.splash}}' class='splash'>
+  </a>
+{% endfor %}
