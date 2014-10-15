@@ -1,7 +1,10 @@
 ---
-layout: default
+layout: post
 ---
 
 {% for item in site.categories.journal %}
-	
+	<div>
+		<p>{{item.title}}</p>
+		<p>{{item.content}}</p>
+	</div>
 {% endfor %}
