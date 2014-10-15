@@ -1,11 +1,11 @@
-.btm-brdr{border-bottom: 5px solid rgba(0,0,0,1);}
+.btm-brdr{border-bottom: 3px solid rgba(0,0,0,1);}
 
 .header {
 	font: italic bold 20px 'Open Sans', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 3px;
-	background: url(/img/header-bg.png) no-repeat 0 100%;
-	background-size: cover;
+	background: url(/img/header-bg-alt.png) repeat 0 100%;
+	background-size: contain;
 	height:120px;
 }
 
@@ -37,8 +37,8 @@
 	.header{
 		height:80px;
 		font-size: 16px;
+		background-size: cover;
 	}
 	.nav{margin-left: 15px;}
 	.nav li{margin-right: 5px;}
-	.btm-brdr{border-bottom: 3px solid rgba(0,0,0,1);}
 }
