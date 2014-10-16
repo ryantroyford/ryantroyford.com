@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% for item in site.categories.project %}
+{% for item in site.categories.project reversed %}
   <a href='{{site.baseurl}}{{item.url}}' class='project pad1'>
   	<img src='{{item.splash}}' class='splash'>
   </a>

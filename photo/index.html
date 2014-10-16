@@ -1,0 +1,11 @@
+---
+layout: post
+title: photo
+---
+
+{% for item in site.categories.photo %}
+	<div class="photo-story">
+	  <a href='{{site.baseurl}}{{item.url}}' class="photo-splash"><img src="{{item.splash}}" /></a>
+	  <a href='{{site.baseurl}}{{item.url}}' class="photo-roll">{{item.title}}</a>
+	 </div>
+{% endfor %}
