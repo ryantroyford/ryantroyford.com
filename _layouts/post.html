@@ -1,7 +1,56 @@
 ---
-layout: default
 ---
+<!DOCTYPE html>
+<html>
+<head>
 
-<div class='unlimiter col8 margin2 pad2'>
-  {{content}}
-</div>
+	<title>hello beautiful</title>
+  	<meta charset='UTF-8'/>
+  	<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+
+	<link href='{{site.baseurl}}/css/base.css' rel='stylesheet' />
+	<link href='{{site.baseurl}}/css/utility.css' rel='stylesheet' />
+
+	<link href='http://fonts.googleapis.com/css?family=Merriweather:400,700,400italic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:700italic,400,700' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+	<div class='header btm-brdr space-bottom1'>
+    <a href='{{site.baseurl}}/' class='logo'><img src='{{site.baseurl}}/img/logo-blk.png'></a>
+    <ul class='nav inline clearfix'>
+      <li><a href='{{site.baseurl}}/journal.html'>journal</a></li>
+      <li><a href='{{site.baseurl}}/info.html'>info</a></li>
+      <li><a href='#'>store</a></li>
+    </ul>
+	</div>
+
+	<div class='wall clearfix'>
+		<div class='unlimiter col8 margin2 pad4y'>
+  			{{content}}
+		</div>
+	</div>
+
+	<div class='footer col12 center pad8y dim'>
+    	all work copyright ryan troy ford 2014
+	</div>
+</body>
+
+<!-- analytics script -->
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-6028512-3']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</html>
