@@ -60,7 +60,8 @@ input,
 textarea {
   color:#404040;
   color:rgba(0,0,0,0.75);
-  font:15px/20px 'Merriweather', sans-serif;
+  /* font:15px/20px 'Open Sans', sans-serif; */
+  font:18px/20px 'Courier New', sans-serif;
   -webkit-font-smoothing:antialiased;
   }
 

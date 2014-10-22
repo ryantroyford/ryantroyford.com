@@ -11,6 +11,8 @@
 
 .logo img{max-height: 100%;}
 
+.border-test{border: 1px solid red;}
+
 .nav{
 	margin-left: 30px;
   	position: relative;
@@ -21,10 +23,6 @@
 }
 
 .dim{opacity: .3;}
-
-.personal-links li{
-	display: inline-block;
-}
 
 .nav li{
 	display: inline;
