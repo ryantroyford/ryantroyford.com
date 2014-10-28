@@ -24,7 +24,6 @@
 
 .dim{opacity: .3;}
 
-.social li{margin-bottom: 10px;}
 .unlimiter img{margin-bottom: 5px;}
 
 .nav li{
@@ -41,6 +40,25 @@
 		color:#fff;
 		background-color: #000;
 	}
+
+.roster li{
+	margin-bottom: 10px;
+}
+
+/*-------- animation -------*/
+
+.project{opacity: 1;}
+
+.project:hover {
+    opacity: .5;
+    -webkit-transition: opacity .75s ease-out;
+    -moz-transition: opacity .75s ease-out;
+    -o-transition: opacity .75s ease-out;
+    -ms-transition: opacity .75s ease-out;
+    transition: opacity .75s ease-out;
+}
+
+/*-------- break points -------*/
 
 @media only screen and (max-width:640px) {
 	.wall{padding:10px;}
