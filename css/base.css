@@ -134,8 +134,8 @@ small { display:block; }
 
 .strong,
 strong {
-  font-family:'Open Sans Bold', sans-serif;
-  font-weight:normal;
+  font-family:'Roboto Slab', serif;
+  font-weight:400;
   }
   strong em,
   em strong { font-family:'Open Sans Bold Italic', sans-serif; }
