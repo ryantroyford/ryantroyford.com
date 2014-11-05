@@ -79,15 +79,23 @@ h6 {
   margin:0;
   }
 
+em{
+  font-size: 16px;
+  font-family:'Open Sans', sans-serif; 
+  font-weight: 400;
+  font-style: italic;
+}
 
+/*
 em h1, h1 em,
 em h2, h2 em,
 em h3, h3 em,
 em h4, h4 em,
 em h5, h5 em,
 em h6, h6 em {
-  font-family:'Open Sans Bold Italic', sans-serif;
+   font-family:'Open Sans Bold Italic', sans-serif; 
   }
+*/
 
 h1 {
   font-size:30px;

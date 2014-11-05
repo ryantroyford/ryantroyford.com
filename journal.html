@@ -4,7 +4,8 @@ layout: post
 
 {% for item in site.categories.journal %}
 	<div class='space-bottom8'>
-		<a href='{{item.permalink}}'><h2 class='pad2y'>{{item.title}}</h2></a>
+		<a href='{{item.permalink}}'><h2>{{item.title}}</h2></a>
+		<small class='space-bottom2'>{{item.date | date: '%B %-d, %Y'}}</small>
 		<a href='{{item.permalink}}'><img src='{{item.splash}}' /></a>
 		<p class='pad2y'>{{item.preview}}</p>
 	</div>
