@@ -16,3 +16,5 @@ printed on French Speckletone Madero Beach, 19x15, edition of 100-ish. coordinat
 ![fitz-01](/img/projects/fitz-tantrums/fitz-01.jpg)
 
 ![fitz-02](/img/projects/fitz-tantrums/fitz-02.jpg)
+
+![fitz-00](/img/projects/fitz-tantrums/fitz-huge.jpg)
