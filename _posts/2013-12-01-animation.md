@@ -15,3 +15,15 @@ animation has been, and i hope always will be, a serious interest of mine. in co
 <iframe src="http://player.vimeo.com/video/59695294" width="100%" height="450" frameborder="0" webkitallowfullscreen="webkitAllowFullScreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowFullScreen" class='space-bottom4'> </iframe>
 
 <iframe src="http://player.vimeo.com/video/23987534" width="100%" height="450" frameborder="0" webkitallowfullscreen="webkitAllowFullScreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowFullScreen" class='space-bottom4'> </iframe>
+
+<p class='center'><img src='/img/projects/animation/bar.gif'/></p>
+
+<p class='center'><img src='/img/projects/animation/coffee.gif'/></p>
+
+<p class='center'><img src='/img/projects/animation/luggage.gif'/></p>
+
+<p class='center'><img src='/img/projects/animation/computer.gif'/></p>
+
+<p class='center'><img src='/img/projects/animation/surfer.gif'/></p>
+
+<p class='center'><img src='/img/projects/animation/splash.gif'/></p>
