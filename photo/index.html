@@ -1,11 +1,12 @@
 ---
-layout: photo
+layout: post
 title: photo
 ---
 
 {% for item in site.categories.photo %}
-	<div class="photo-story">
-	  <a href='{{site.baseurl}}{{item.url}}' class="photo-splash"><img src="{{item.splash}}" /></a>
-	  <a href='{{site.baseurl}}{{item.url}}' class="photo-roll">{{item.title}}</a>
-	 </div>
+	<div class='space-bottom8 col6 pad2'>
+	  <a href='{{item.permalink}}'><h2>{{item.title}}</h2></a>
+	  <small class='space-bottom2'>{{item.date | date: '%B %-d, %Y'}}</small>
+	  <a href='{{site.baseurl}}{{item.url}}'><img src="{{item.splash}}" /></a>
+	</div>
 {% endfor %}

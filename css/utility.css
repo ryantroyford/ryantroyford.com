@@ -1,0 +1,74 @@
+.btm-brdr{border-bottom: 3px solid rgba(0,0,0,1);}
+
+.header {
+	font: italic bold 20px 'Open Sans', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	background: url(/img/header-bg-alt.png) repeat 0 100%;
+	background-size: contain;
+	height:120px;
+}
+
+.logo img{max-height: 100%;}
+
+.border-test{border: 1px solid red;}
+
+.nav{
+	margin-left: 30px;
+  	position: relative;
+  	top: 50%;
+  	-webkit-transform: translateY(-50%);
+  	-ms-transform: translateY(-50%);
+  	transform: translateY(-50%);
+}
+
+.dim{opacity: .3;}
+
+.unlimiter img{margin-bottom: 5px;}
+
+.unlimiter ul{margin-bottom: 20px;}
+
+.nav li{
+	display: inline;
+	margin-right: 20px;
+}
+
+	.nav li a{
+		color: #000;
+		padding:5px 5px 5px 8px;
+	}
+
+	.nav li a:hover{
+		color:#fff;
+		background-color: #000;
+	}
+
+.roster li{
+	margin-bottom: 10px;
+}
+
+/*-------- animation -------*/
+
+.project{opacity: 1;}
+
+.project:hover {
+    opacity: .5;
+    -webkit-transition: opacity .75s ease-out;
+    -moz-transition: opacity .75s ease-out;
+    -o-transition: opacity .75s ease-out;
+    -ms-transition: opacity .75s ease-out;
+    transition: opacity .75s ease-out;
+}
+
+/*-------- break points -------*/
+
+@media only screen and (max-width:640px) {
+	.wall{padding:10px;}
+	.header{
+		height:50px;
+		font-size: 14px;
+		background-size: cover;
+	}
+	.nav{margin-left: 5px;}
+	.nav li{margin-right: 3px;}
+}

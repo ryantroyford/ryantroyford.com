@@ -1,19 +1,17 @@
 ---
-layout: photo
-title: 2013-2014 analog amateur
+layout: post
+title: going analog
 category: photo
 url: /2013-learning-film
 permalink: /photo/2013-14-learning-film
 splash: /img/photo/2013-14-learning-film/teaser.jpg
 ---
 
-i've long had an affinity for analog design practices, so it was only a matter of time before i felt pulled to the non-digital side of photography, too. i inherited a Minolta XG-1, and bought an XG-7 (from my girlfriend and a less-than-sober ebay purchase, respectively), and gave it a "shot." that's an excellent pun.
+i've long had an affinity for analog design practices, so dabbling in the non-digital side of photography was only a matter of time. after a less-than-sober ebay purchase, i had a Minolta XG-7 on my hands.
 
-upon developing the first rolls with my XG-7, it was quickly apparent that it's seals were corroded and there was a considerable amount of light leaking in (as you'll see). i guess that's what i get for buying a camera for $18 drunk at 2am and not inspecting it before shooting. i've since fixed it, but i don't think the accidental exposure ruins the photos affected. just adds some character. 
+after developing my first rolls, it was apparent that it's seals were corroded, and there was considerable light leaking in (as you'll see). a reasonable punishment for buying a camera drunk at 2am and not inspecting it before shooting. i've since fixed it, but i don't think the accidental exposure ruins the photos affected. it just adds some character. 
 
-anyway, film has been a wonderful excercise in patience, and there's a much closer connection with the final product when you have to know what you're doing before you snap the shutter. looking forward to shooting many more rolls in the future. 
-
----
+so far, my experience with film has been wonderful, and it's seen my digital SLR gathering more & more dust these days.
 
 ![001](../../img/photo/2013-14-learning-film/001.jpg)
 _Seattle, Washington_
