@@ -6,7 +6,7 @@ url: /roadtrippers
 splash: /img/projects/roadtrippers/splash.png
 ---
 
-when i stop to think about it, it's funny i work at a place whose main focus is cartography, because i really don't know shit about maps. that said, comfort zones are boring, so i was happy when this project fell into my lap. 
+when i stop to think about it, it's funny i work at a place thats main focus is cartography, because i really don't know shit about maps. that said, comfort zones are boring, so i was happy when this project fell into my lap. 
 
 Roadtrippers wanted to use Mapbox to break free of the confines of Google Maps, and there are few things i love more than road trips, so i was happy to give it a shot. drawing influence from a recent basement discovery of AAA road maps circa early 60's, i went to work trying to make something profoundly advanced feel nostalgic & comfortable. 
 
