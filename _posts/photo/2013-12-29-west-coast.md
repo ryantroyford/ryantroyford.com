@@ -25,7 +25,7 @@ _San Francisco, California_
 ![006](../../img/photo/2013-west-coast/006.jpg)
 
 ![007](../../img/photo/2013-west-coast/007.jpg)
-_after working & exploring for a week in San Francisco, i flew down to San Diego to meet one of my best friends and begin our drive up the coast to Seattle. scouring airbnb for a place to crash, our search for the perfect mix of cheap & aventurous landed us in an RV for the night._
+_after working & exploring for a week in San Francisco, i flew down to San Diego to meet one of my best friends and begin our drive up the coast to Seattle. scouring airbnb for a place to crash, our search for the perfect mix of cheap & adventurous landed us in an RV for the night._
 
 ![008](../../img/photo/2013-west-coast/008.jpg)
 
