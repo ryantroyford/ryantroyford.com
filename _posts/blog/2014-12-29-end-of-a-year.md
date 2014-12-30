@@ -1,7 +1,7 @@
 ---
 layout: post
 title: end of a year
-permalink: /december-2014-recently
+permalink: /2014-end-of-a-year
 preview: 	
 splash: /img/blog/recently-12-29-2014.jpg
 category: journal
