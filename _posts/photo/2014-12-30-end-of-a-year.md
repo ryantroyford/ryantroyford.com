@@ -7,7 +7,7 @@ permalink: /photo/2014-end-of-a-year
 splash: /img/photo/2014-end-of-a-year/teaser.jpg
 ---
 
-in the last few months of 2014, i was moving around quite a bit. from San Francisco, to Washingon, D.C., to Chicago, and a few places in between. too much, some might say. 
+in the last few months of 2014, i was moving around quite a bit. from San Francisco, to Washington, D.C., to Chicago, and a few places in between. too much, some might say. 
 
 as is always said, i didn't shoot as much as i would have wanted to. however, here are a few that i did take, and happened to like.
 
