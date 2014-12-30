@@ -25,6 +25,8 @@ all of this to say, i'm ready to leave this goddamn year behind. highs, lows, in
 
  - be more outspoken about the things i believe in. try not to be another artist who only toils quietly on meaningless work, avoids taking a stand, places income over personal ethics. straighten the slack in my spine and stand up for my principles with greater resolve.
 
+ - remember that being honest with myself is as important as being honest with others. trying to please everyone is an exerise in futilty, and when it leaves you yourself unhappy, it's an exercise in self-desctruction. better to be truthful up front and bear the pain it causes than let things grow into deep-seated problems, that are exponentially more harmful.
+
  - take better care of myself. and i don't mean that in a the trite, "sign up for a gym membership" context, but the whole spectrum from physical shape to mental well-being. if this means taking on less work to lower stresses, so be it.
 
  - "don't work so hard, get some sleep, and just let yourself be happy in 2015, dude." advice from a good friend that i've taken to heart.
