@@ -1,5 +1,3 @@
----
----
 <!DOCTYPE html>
 <html>
 
@@ -7,67 +5,41 @@
 	<title>hello beautiful</title>
   <meta charset='UTF-8'/>
   <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-
-	<link href='{{site.baseurl}}/css/base.css' rel='stylesheet' />
-  <link href='{{site.baseurl}}/css/utility.css' rel='stylesheet' />
-
-  <link rel='shortcut icon' href='/img/favicon.ico' type='image/x-icon' />
-
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans:700italic,400,700' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,300' rel='stylesheet' type='text/css'>
-
-  <script src="/jquery-1.10.2.min.js"></script>
-  <script src="/jquery.isotope.min.js"></script>
-
+  <link href='{{site.baseurl}}/css/framework.css' rel='stylesheet' />
+  <link href='{{site.baseurl}}/css/specifics.css' rel='stylesheet' />
+  <script src='{{site.baseurl}}/js/jquery-1.11.2.min.js'></script>
+  <script src='{{site.baseurl}}/js/isotope.pkgd.min.js'></script>
+  <script src='{{site.baseurl}}/js/imagesloaded.pkgd.min.js'></script>
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,500,700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
-	<div class='header btm-brdr space-bottom1'>
-    <a href='{{site.baseurl}}/' class='logo'><img src='{{site.baseurl}}/img/logo-blk.png'></a>
-    <ul class='nav inline clearfix'>
-      <li><a href='{{site.baseurl}}/journal.html'>journal</a></li>
-      <li><a href='{{site.baseurl}}/info.html'>info</a></li>
-      <li><a href='http://ryantroyford.bigcartel.com/'>store</a></li>
-    </ul>
-	</div>
-
-	<div class='wall'>
-		{{content}}
-	</div>
-
-	<div class='footer col12 center pad8y dim'>
-    all work copyright ryan troy ford 2014
-	</div>
+  <header class='row3 block border-b'>
+    <div class='col8 margin2 center'>
+      <ul class='space-top1'>
+        <li>work</li>
+        <li>info</li>
+        <li class='logo'></li>
+        <li>journal</li>
+        <li>store</li>
+      </ul>
+    </div>
+  </header>
+  <div class='wall pad4y'>
+    {{content}}
+  </div>
+  <div class='footer center col8 margin2 pad4y'>
+    all work copyright ryan troy ford 420 - 1969
+  </div>
 </body>
 
-<!-- Isotope by Dave DeSandro -->
-
 <script type="text/javascript">
-  
-var $container = $('.wall').imagesLoaded( function() {
-  $container.isotope({
-        itemSelector : '.project',
+  var $container = $('.wall').imagesLoaded( function() {
+    $container.isotope({
+          itemSelector : '.project',
+      });
     });
-  });
-
 </script>
-
-<!-- analytics script -->
-
-<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-6028512-3']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
-
-<!-- this website was lovingly handcrafted by ryan, out in the open, using github, jekyll, cheap beer, vegan food, and tom waits records. ♥ -->
 
 </html>
