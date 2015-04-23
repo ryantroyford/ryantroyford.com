@@ -1,13 +1,24 @@
+header a{
+	color:#3e3e3e;
+	font-weight: 400;
+	/* font-style: italic; */
+}
+
+	header a:hover{
+		color:#000;
+	}
+
 header ul li{
 	display: inline-block;
 	margin: 0px 25px 0px 25px;
 	vertical-align: middle;
+	text-transform: uppercase;
 }
 
 .logo{
 	width: 100px;
 	height: 100px;
-	background-color: black;
+	background-image: url(/img/placehold-hand.png);
 }
 
 .project{
@@ -18,27 +29,42 @@ header ul li{
 	.project:hover {opacity:.6;}
 	.project img{max-width: 100%;}
 
-.footer{opacity: .35;}
+.footer{
+	opacity: .35;
+}
 
 /*	text & links
 ------------------------------------------------------- */
 
 h1, 
 h2, 
-h3, 
-h4, 
-h5{
-	/* font-family: 'Roboto', sans-serif; */
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 700;
+h3,{
+	/* font-family: 'Open Sans', sans-serif; */
 }
 
 h1{
 	font-size: 30px;
-	padding:10px 0px;
+	padding:16px 0px;
+	font-weight: 700;
 }
 
-p{line-height: 23px;}
+h2{
+	font-size: 20px;
+	padding:16px 0px;
+	font-weight: 700;
+}
+
+h3{
+	font-size: 18px;
+	padding:16px 0px;
+	font-weight: 400;
+	font-style: italic;
+}
+
+p{
+	line-height: 23px;
+	margin: 14px 0px;
+}
 
 body{
 	color:#3e3e3e;
@@ -55,6 +81,22 @@ a{
 }
   a:hover{color:#62aee7;}
 
+small{
+	font-size: 14px;
+	font-style: italic;
+	opacity: .5;
+}
+
+/*	list
+------------------------------------------------------- */
+
+.wall ul li{
+	text-decoration: none;
+	margin: 14px 0px 14px 8px;
+	line-height: 23px;
+}
+
+
 /*-------------------------------------------------------
   mobile
 ------------------------------------------------------- */
@@ -64,4 +106,8 @@ a{
 		padding:10;
 	}
 	.logo{float:left;}
+	.wall{
+		padding-left:20px;
+		padding-right: 20px;
+	}
 }
