@@ -3,7 +3,7 @@ layout: default
 ---
 
 {% for item in site.categories.project %}
-  <a href='{{site.baseurl}}{{item.url}}' class='project fader center' style='z-index:{{item:z-index}}'>
+  <a href='{{site.baseurl}}{{item.url}}' class='project fader col4' style='z-index:{{item:z-index}}'>
   	<img src='{{item.image}}'>
   </a>
 {% endfor %}

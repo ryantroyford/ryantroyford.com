@@ -1,24 +1,28 @@
-html{border: 10px solid #222;}
+html{
+	/* border: 10px solid #222; */
+	background-image: url(/img/paper-levels.png);
+}
 
 header{
-	background-image: url(/img/paper-levels.png);
-	border-bottom: 10px solid #222;
+	/* background-image: url(/img/paper-levels.png); */
+	/* border-bottom: 10px solid #222; */
 }
 
 header a{
 	color:#3e3e3e;
-	font-size: 18px;
+	font-size: 20px;
 	font-style: italic;
 	letter-spacing: 2px;
+	font-weight: 700;
 }
 
 	header a:hover{
-		color:#9d9d9d;
+		color:#707070;
 	}
 
 header ul li{
 	display: inline-block;
-	margin: 0px 20px 0px 20px;
+	margin: 0px 15px 0px 15px;
 	vertical-align: middle;
 	text-transform: uppercase;
 }
@@ -53,13 +57,15 @@ header ul li{
 img{max-width: 100%;}
 
 .project{
-	margin: 0px -55px -55px -20px;
+	margin: 0px -50px -50px -20px;
 	padding: 20px;
 	position: relative;
+	box-sizing: border-box;
 }
 	.project:hover {opacity:.6;}
 
 .project img{
+	max-width: 100%;
 	margin: 0 auto;
 	text-align: center;
 }
@@ -134,13 +140,23 @@ small{
 	opacity: .5;
 }
 
+.desaturate{
+	-webkit-filter: grayscale(100%); filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+	.desaturate:hover{
+		-webkit-filter: grayscale(0%); filter: grayscale(0%);
+		filter: grayscale(0%);
+	}
+
 /*-------------------------------------------------------
   mobile
 ------------------------------------------------------- */
 @media only screen and (max-width:640px) {
 	.project{
-		margin:0;
+		margin:-15px 0px -15px 0px;
 		padding:10;
+		box-sizing: border-box;
 	}
 	.logo{
 		float:left;
