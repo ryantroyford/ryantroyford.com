@@ -22,26 +22,17 @@ this modest website was handmade by ryan, out in the open, using github, ruby, j
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700' rel='stylesheet' type='text/css'>
 </head>
 <body>
-  <header class='clearfix'>
-    <div class='center'>
-      <ul class='space-top1'>
-        <li class='head-item'><a href='/'>work</a></li>
-        <li class='head-item'><a href='/info.html'>info</a></li>
-        <li class='logo'></li>
-        <li class='head-item'><a href='/journal.html'>journal</a></li>
-        <li class='head-item'><a href='http://ryantroyford.bigcartel.com/'>store</a></li>
-      </ul>
-    </div>
-    <div>
-      <ul class='mobile-menu'>
-        <li><a href='/'>work</a></li>
-        <li><a href='/info.html'>info</a></li>
-        <li><a href='/journal.html'>journal</a></li>
-        <li><a href='http://ryantroyford.bigcartel.com/'>store</a></li>
-      </ul>
-    </div>
+  <header class='center pad2y'>
+    <a href='/' class='logo col12'></a>
+    <ul>
+      <li><a href='/'>projects</a></li>
+      <li><a href='/info.html'>info</a></li>
+      <li><a href='/journal.html'>journal</a></li>
+      <li><a href='http://ryantroyford.bigcartel.com/'>store</a></li>
+    </ul>
   </header>
-  <div class='wall pad4y clearfix space-bottom4 col11 margin1'>
+  <div class='col8 margin2 border-b block'></div>
+  <div class='wall pad4y clearfix space-bottom4 col12'>
     {{content}}
   </div>
   <div class='footer center col8 margin2 pad4y'>

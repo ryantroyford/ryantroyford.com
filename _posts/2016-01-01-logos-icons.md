@@ -20,3 +20,5 @@ mapbox partners patch
 vngism
 
 osm "i voted"?
+
+ska revival tour icon
