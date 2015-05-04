@@ -75,6 +75,11 @@ header ul li{
 	line-height: 23px;
 }
 
+.social li{
+	display: inline-block;
+}
+
+
 /*	isotope
 ------------------------------------------------------- */
 

@@ -8,3 +8,5 @@ z-index: 200
 ---
 
 editorial shiz
+
+include little map marker from Roadtrippers thumbnail

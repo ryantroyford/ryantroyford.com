@@ -4,10 +4,11 @@ layout: post
 category: project
 permalink: /logos-icons
 image: /img/projects/logos-icons/thumb.png
-z-index: 300
 ---
 
 mapbox spacedog
+
+camp imgur icons
 
 heart ladder
 
@@ -22,3 +23,7 @@ vngism
 osm "i voted"?
 
 ska revival tour icon
+
+empty stretch
+
+posters for pride
