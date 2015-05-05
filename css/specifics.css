@@ -55,10 +55,6 @@ header ul li{
 	position: relative;
 	box-sizing: border-box;
 	padding: 10px 0px 10px 0px;
-	/*
-	background-color: rgba(0, 0, 0, .1);
-	border:2px solid white;
-	*/
 }
 	.project:hover {opacity:.6;}
 
@@ -164,14 +160,30 @@ small{
 ------------------------------------------------------- */
 @media only screen and (max-width:640px) {
 	.project{
-		padding: 0px;
-		width: 100%;
+		padding: 10px 0px;
 		box-sizing: border-box;
+
+		/* 
+		hacky as fuck, but i'm a noob and can't figure out why jekyll is applying left:20px to all .project elements
+		this prevents horizontal overflow in mobile layouts
+		*/
+		margin-left: -20px;
 	}
+
+	.logo{
+		width: 100%;
+		margin-left: 0;
+	}
+
 	header ul{
 		width: 100%;
+		right: 0;
 		position: relative;
 		float: right;
+		margin: 0 auto;
 	}
-	header ul li{margin: 0;}
+	header ul li{
+		font-size: 8px;
+		padding:5px;
+	}
 }

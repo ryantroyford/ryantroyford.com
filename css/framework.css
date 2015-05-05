@@ -263,7 +263,7 @@ img.inline, .inline           { display:inline-block; }
   .col10,
   .col11,
   .col12,
-  .fifths > * { width:100%; max-width:100%; }
+  .fifths > * { width:100%; max-width:100%; } 
   .margin0,
   .margin1,
   .margin2,
