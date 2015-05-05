@@ -1,10 +1,13 @@
 html{
-	border: 10px solid #222;
+	border-top: 10px solid #222;
 	background-image: url(/img/paper-levels.png);
 }
 
 header{
 	/* border-bottom: 10px solid #222; */
+	z-index: 1000;
+	position: relative;
+	padding-bottom: 10px;
 }
 
 header a{
@@ -19,6 +22,14 @@ header a{
 		color:#707070;
 	}
 
+header ul{
+	height: 40px;
+	position: absolute;
+	top:50%;
+	margin-top: -20px;
+	right: 20px;
+}
+
 header ul li{
 	padding: 20px;
 	display: inline-block;
@@ -29,14 +40,10 @@ header ul li{
 .logo{
 	width: 125px;
 	height: 125px;
-	margin: -10px auto 0px auto;
 	background-image: url(/img/hand.png);
 	background-repeat: no-repeat;
 	background-position: 50% center;
-	/*
-	border: solid 3px rgba(0,0,0,1);
-	border-radius: 50%;
-	*/
+	margin-left: 50px;
 }
 
 	.logo:hover{
@@ -160,6 +167,11 @@ small{
 		padding: 0px;
 		width: 100%;
 		box-sizing: border-box;
+	}
+	header ul{
+		width: 100%;
+		position: relative;
+		float: right;
 	}
 	header ul li{margin: 0;}
 }
