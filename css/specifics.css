@@ -40,14 +40,17 @@ header ul li{
 .logo{
 	width: 125px;
 	height: 125px;
-	background-image: url(/img/hand.png);
-	background-repeat: no-repeat;
-	background-position: 50% center;
+	background-image: url(/img/hands-sprite.png);
+	background-repeat: repeat-x;
+	background-position: 0px; center;
 	margin-left: 50px;
 }
 
 	.logo:hover{
-		background-image: url(/img/hands.gif);
+		-webkit-animation: hands 1.5s steps(6) infinite;
+  		-moz-animation: hands 1.5s steps(6) infinite;
+  		-o-animation: hands 1.5s steps(6) infinite;
+  		animation: hands 1.5s steps(6) infinite;
 	}
 
 .project{
@@ -83,8 +86,25 @@ header ul li{
 }
 
 
-/*	isotope
+/*	animation
 ------------------------------------------------------- */
+
+@-webkit-keyframes hands {
+    from { 
+    	background-position: 0px center;
+    }
+    to { 
+    	background-position: 750px center;
+    }
+}
+@keyframes hands {
+    from { 
+    	background-position: 0px center;
+    }
+    to { 
+    	background-position: 750px center;
+    }
+}
 
 
 
@@ -171,7 +191,7 @@ small{
 	}
 
 	.logo{
-		width: 100%;
+		text-align: center;
 		margin-left: 0;
 	}
 
