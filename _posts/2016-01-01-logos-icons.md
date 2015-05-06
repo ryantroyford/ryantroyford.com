@@ -6,6 +6,10 @@ permalink: /logos-icons
 image: /img/projects/logos-icons/thumb.png
 ---
 
+a selection of various logos, icons, and identity. 
+
+children's inn beaker/heart 
+
 <div class='row7'>
 	<img src='/img/projects/logos-icons/spacedog.png' class='col4' />
 	<img src='/img/projects/logos-icons/camp-imgur-b.png' class='col4' />
