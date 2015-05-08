@@ -206,4 +206,7 @@ small{
 		font-size: 8px;
 		padding:5px;
 	}
+	.social li{
+		display: list-item;
+	}
 }
