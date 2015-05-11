@@ -14,6 +14,7 @@ i play in a band called [The Gunshy](https://thegunshy.bandcamp.com/), and in Ma
 ![01](../../img/photo/2015-recent-past/01.jpg)
 
 ![02](../../img/photo/2015-recent-past/02.jpg)
+_my good friend [Brent Knepper](http://www.everythingwillbenoble.com/) and his trusty sidekick Hickory. the best companions for exploration._
 
 ![03](../../img/photo/2015-recent-past/03.jpg)
 
