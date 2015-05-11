@@ -16,9 +16,9 @@ image: /img/projects/logos-icons/thumb.png
 	<img src='/img/projects/logos-icons/vgnism-a.png' class='col4' />
 	<img src='/img/projects/logos-icons/p4p.png' class='col4' />
 	<img src='/img/projects/logos-icons/heart-ladder.png' class='col4' />
-	<img src='/img/projects/logos-icons/camp-imgur-a.png' class='col4' />
-	<img src='/img/projects/logos-icons/soon-enough.png' class='col4' />
 	<img src='/img/projects/logos-icons/rocket-logo.png' class='col4' />
+	<img src='/img/projects/logos-icons/soon-enough.png' class='col4' />
+	<img src='/img/projects/logos-icons/camp-imgur-a.png' class='col4' />
 	<img src='/img/projects/logos-icons/partners-patch.png' class='col4' />
 	<img src='/img/projects/logos-icons/vgnism-b.png' class='col4' />
 	<img src='/img/projects/logos-icons/empty-stretch.png' class='col4' />
