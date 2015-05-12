@@ -9,7 +9,7 @@ splash: /img/photo/2015-recent-past/teaser.jpg
 
 a collection of images from my life's recent happenings. with the exception of the first photo, all were taken in the early months of 2015. 
 
-i play in a band called [The Gunshy](https://thegunshy.bandcamp.com/), and in March i did my first small tour with them. we packed up the van (Glory), and hauled through Iowa, Kansas, Oklahoma, Arkansas, then back to Illinois. many of these photos are from that trip, though it was my the trial run of a new (to me) camera, so i was hesitant to use too much film on the off chance it was in need of repairs. now that i know it shoots like a champ, next time i'll be firing away. 
+i play in a band called [The Gunshy](https://thegunshy.bandcamp.com/), and in March i did my first small tour with them. we packed up the van (Glory), and hauled through Iowa, Kansas, Oklahoma, Arkansas, then back to Illinois. many of these photos are from that trip, though it was the trial run of a new (to me) camera, so i was hesitant to use too much film on the off chance it was in need of repairs. now that i know it shoots like a champ, next time i'll be firing away. 
 
 ![01](../../img/photo/2015-recent-past/01.jpg)
 
