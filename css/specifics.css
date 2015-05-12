@@ -191,8 +191,10 @@ small{
 	}
 
 	.logo{
-		text-align: center;
-		margin-left: 0;
+		float: none;
+		display: inline-block;
+		margin: 0px auto;
+		background-image: url(/img/hand.png);
 	}
 
 	header ul{
