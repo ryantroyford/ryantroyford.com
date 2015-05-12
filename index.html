@@ -2,8 +2,16 @@
 layout: default
 ---
 
-{% for item in site.categories.project reveresed %}
-  <a href='{{site.baseurl}}{{item.url}}' class='project pad1 col3 center'>
-  	<img src='{{item.splash}}' class='splash'>
+{% for item in site.categories.project %}
+  <a href='{{site.baseurl}}{{item.url}}' class='project fader col3'>
+  	<img src='{{item.image}}'>
   </a>
 {% endfor %}
+
+<script type="text/javascript">
+  var $container = $('.wall').imagesLoaded( function() {
+    $container.isotope({
+      itemSelector : '.project',
+    });
+  });
+</script>

@@ -1,4 +1,4 @@
-personal portfolio for design, illustration, animation, what have you.
+personal portfolio for design, illustration, printmaking, animation, what have you.
 
 -----------------------------
 

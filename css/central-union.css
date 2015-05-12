@@ -1,7 +1,7 @@
 body{
   margin: 0;
   padding: 0;
-  background-image: url(../img/projects/central-union/brickwall-inv.jpg);
+  background-image: url(../img/projects/central-union-mission/brickwall-inv.jpg);
   background-attachment: fixed;
 }
 
@@ -27,6 +27,12 @@ body{
     font-style: normal;
 }
 
+h1, h2, h3, body{
+  color: rgba(255, 255, 255, .95);
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
 h1{
   font-family: 'central_union_mission_filleRg';
   text-transform: uppercase;
@@ -48,7 +54,7 @@ h2 a:hover{
 }
 
 .head-img{
-  background-image: url(../img/projects/central-union/central-union-mission-wide.jpg);
+  background-image: url(../img/projects/central-union-mission/central-union-mission-wide.jpg);
   background-size: cover;
   background-position: 0 70%;
 }

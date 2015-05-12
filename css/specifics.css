@@ -1,0 +1,212 @@
+html{
+	border-top: 10px solid #222;
+	background-image: url(/img/paper.png);
+}
+
+header{
+	/* border-bottom: 10px solid #222; */
+	z-index: 1000;
+	position: relative;
+	padding-bottom: 10px;
+}
+
+header a{
+	color:#3e3e3e;
+	font-size: 16px;
+	font-style: italic;
+	letter-spacing: 2px;
+	font-weight: 400;
+}
+
+	header a:hover{
+		color:#707070;
+	}
+
+header ul{
+	height: 40px;
+	position: absolute;
+	top:50%;
+	margin-top: -20px;
+	right: 20px;
+}
+
+header ul li{
+	padding: 20px;
+	display: inline-block;
+	vertical-align: middle;
+	text-transform: uppercase;
+}
+
+.logo{
+	width: 125px;
+	height: 125px;
+	background-image: url(/img/hands-sprite.png);
+	background-repeat: repeat-x;
+	background-position: 0px; center;
+	margin-left: 50px;
+}
+
+	.logo:hover{
+		-webkit-animation: hands 1.5s steps(6) infinite;
+  		-moz-animation: hands 1.5s steps(6) infinite;
+  		-o-animation: hands 1.5s steps(6) infinite;
+  		animation: hands 1.5s steps(6) infinite;
+	}
+
+.project{
+	text-align: center;
+	position: relative;
+	box-sizing: border-box;
+	padding: 10px 0px 10px 0px;
+}
+	.project:hover {opacity:.6;}
+
+.project img{
+	max-width: 100%;
+}
+
+.footer{
+	opacity: .35;
+}
+
+.wall{
+	box-sizing: border-box;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.wall ul li{
+	text-decoration: none;
+	margin: 14px 0px 14px 8px;
+	line-height: 23px;
+}
+
+.social li{
+	display: inline-block;
+}
+
+
+/*	animation
+------------------------------------------------------- */
+
+@-webkit-keyframes hands {
+    from { 
+    	background-position: 0px center;
+    }
+    to { 
+    	background-position: 750px center;
+    }
+}
+@keyframes hands {
+    from { 
+    	background-position: 0px center;
+    }
+    to { 
+    	background-position: 750px center;
+    }
+}
+
+
+
+/*	text & links
+------------------------------------------------------- */
+
+h1, 
+h2, 
+h3,{
+	/* font-family: 'Open Sans', sans-serif; */
+}
+
+h1{
+	font-size: 30px;
+	padding:16px 0px;
+	font-weight: 700;
+}
+
+h2{
+	font-size: 20px;
+	padding:16px 0px;
+	font-weight: 700;
+}
+
+h3{
+	font-size: 18px;
+	padding:16px 0px;
+	font-weight: 400;
+	font-style: italic;
+}
+
+p{
+	line-height: 23px;
+	margin: 14px 0px;
+}
+
+body{
+	color:#3e3e3e;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+
+body em{font-style: italic;}
+body strong{font-weight: 700;}
+
+a{
+  text-decoration: none;
+  /* color:#3b95d6; */
+  color: #c6b437;
+}
+  a:hover{
+  	/* color:#62aee7; */
+  	color: #dfce56;
+  }
+
+small{
+	font-size: 14px;
+	font-style: italic;
+	opacity: .5;
+}
+
+.desaturate{
+	-webkit-filter: grayscale(100%); filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+	.desaturate:hover{
+		-webkit-filter: grayscale(0%); filter: grayscale(0%);
+		filter: grayscale(0%);
+	}
+
+/*-------------------------------------------------------
+  mobile
+------------------------------------------------------- */
+@media only screen and (max-width:640px) {
+	.project{
+		padding: 10px 0px;
+		box-sizing: border-box;
+
+		/* 
+		hacky as fuck, but i'm a noob and can't figure out why jekyll is applying left:20px to all .project elements
+		this prevents horizontal overflow in mobile layouts
+		*/
+		margin-left: -20px;
+	}
+
+	.logo{
+		text-align: center;
+		margin-left: 0;
+	}
+
+	header ul{
+		width: 100%;
+		right: 0;
+		position: relative;
+		float: right;
+		margin: 0 auto;
+	}
+	header ul li{
+		font-size: 8px;
+		padding:5px;
+	}
+	.social li{
+		display: list-item;
+	}
+}
