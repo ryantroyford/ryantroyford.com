@@ -23,6 +23,7 @@ _my good friend [Brent Knepper](http://www.everythingwillbenoble.com/) and his t
 ![05](../../img/photo/2015-recent-past/05.jpg)
 
 ![05b](../../img/photo/2015-recent-past/05b.jpg)
+_our bass player and all-around handsome dude Jesse posing in a parking lot somewhere in Iowa, or Kansas maybe. "i finally figured that if someone points a camera at you, you might as well try to look cool."_
 
 ![06](../../img/photo/2015-recent-past/06.jpg)
 
