@@ -9,7 +9,7 @@ splash: /img/photo/2013-14-learning-film/teaser.jpg
 
 i've long had an affinity for analog design practices, so dabbling in the non-digital side of photography was only a matter of time. after a less-than-sober ebay purchase, i had a Minolta XG-7 on my hands.
 
-after developing my first rolls, it was apparent that it's seals were corroded, and there was considerable light leaking in (as you'll see). a reasonable punishment for buying a camera drunk at 2am and not inspecting it before shooting. i've since fixed it, but i don't think the accidental exposure ruins the photos affected. it just adds some character. 
+after developing my first rolls, it was apparent that it's seals were corroded, and there was considerable light leaking in (as you'll see). a reasonable punishment for buying a camera drunk at 2am and not inspecting it before shooting. i've since fixed it, but i don't think the accidental exposure ruins the photos effected. it just adds some character. 
 
 so far, my experience with film has been wonderful, and it's seen my digital SLR gathering more & more dust these days.
 
