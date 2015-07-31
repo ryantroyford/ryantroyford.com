@@ -57,6 +57,18 @@ table {
   border-spacing: 0;
 }
 
+/* ------------------------------------------------------
+  animation
+------------------------------------------------------- */
+
+.anim {
+  ms-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+
 /*-------------------------------------------------------
   markup free clearing
   details: http://www.positioniseverything.net/easyclearing.html
@@ -81,7 +93,7 @@ table {
           box-sizing: border-box;
 }
 
-img{max-width: 100%;}
+img{max-width: 100%; max-height: 100%;}
 
 /*-------------------------------------------------------
   columns
@@ -175,7 +187,7 @@ img{max-width: 100%;}
 ------------------------------------------------------- */
 .fr                           { float:right; }
 .fl                           { float:left; }
-.center                       { text-align:center; }
+.text-center                  { text-align:center; }
 .hidden.hidden                { display:none; }
 .space-bottom0                { margin-bottom: 5px;}
 .space-bottom1                { margin-bottom:10px; }

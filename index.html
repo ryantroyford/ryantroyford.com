@@ -1,17 +1,16 @@
 ---
 layout: default
 ---
-
+<!-- 
 {% for item in site.categories.project %}
-  <a href='{{site.baseurl}}{{item.url}}' class='project fader col3'>
-  	<img src='{{item.image}}'>
+  <a href='{{site.baseurl}}{{item.url}}' class='{{item.splashwidth}} {{item.float}} test-border pad1 row10'>
+  	<img src='{{item.image}}' class='splash-img'>
   </a>
 {% endfor %}
+-->
 
-<script type="text/javascript">
-  var $container = $('.wall').imagesLoaded( function() {
-    $container.isotope({
-      itemSelector : '.project',
-    });
-  });
-</script>
+{% for item in site.categories.project %}
+  <a href='{{site.baseurl}}{{item.url}}' class='{{item.splashwidth}} {{item.float}} pad1 row10 block project' 
+  style='background-image: url( {{item.image}} );'>
+  </a>
+{% endfor %}

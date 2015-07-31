@@ -1,38 +1,28 @@
 ---
 ---
-<!-- 
-this modest website was handmade by ryan, out in the open, using github, ruby, jekyll, cheap beer, vegan food, love, and Tom Waits records. 
--->
 
 <!DOCTYPE html>
 <html>
 <head>
-	<title>hello beautiful</title>
+  <title>hello beautiful</title>
   <meta charset='UTF-8'/>
-  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
   <link href='{{site.baseurl}}/css/framework.css' rel='stylesheet' />
   <link href='{{site.baseurl}}/css/specifics.css' rel='stylesheet' />
-  <link rel='shortcut icon' href='/img/favicon-card.ico' type='image/x-icon' />
-  <script src='{{site.baseurl}}/js/jquery-1.11.2.min.js'></script>
-  <script src='{{site.baseurl}}/js/isotope.pkgd.min.js'></script>
-  <script src='{{site.baseurl}}/js/imagesloaded.pkgd.min.js'></script>
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700' rel='stylesheet' type='text/css'>
 </head>
 <body>
-  <header class='col12 center clearfix border-b'>
-    <a href='/' class='logo fl'></a>
-    <ul>
-      <li><a href='/'>projects</a></li>
-      <li><a href='/info.html'>info</a></li>
-      <li><a href='/journal.html'>journal</a></li>
-      <li><a href='http://ryantroyford.bigcartel.com/'>store</a></li>
-    </ul>
+  <header class='col12 clearfix pad1y test-border'>
+    <a href='/' class='logo block'></a>
+    <div class='inner test-border anim'>
+      <ul class='nav pad2y'>
+        <li><a href='#'>projects</a></li>
+        <li><a href='#'>info</a></li>
+        <li><a href='#'>journal</a></li>
+        <li><a href='#'>store</a></li>
+      </ul>
+    </div>
   </header>
-  <div class='wall pad4y clearfix space-bottom4 col12'>
+  <div class='inner anim'>
     {{content}}
-  </div>
-  <div class='footer center col8 margin2 pad4y'>
-    <p>all work copyright ryan troy ford 420 - 1969<p>
   </div>
 </body>
 </html>
