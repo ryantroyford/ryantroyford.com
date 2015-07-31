@@ -1,6 +1,10 @@
 ---
 ---
 
+<!-- 
+this modest website was handmade by ryan, out in the open, using github, ruby, jekyll, cheap beer, vegan food, love, and Tom Waits records.
+-->
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -10,9 +14,9 @@
   <link href='{{site.baseurl}}/css/specifics.css' rel='stylesheet' />
 </head>
 <body>
-  <header class='col12 clearfix pad1y test-border'>
+  <header class='col12 clearfix pad1y'>
     <a href='/' class='logo block'></a>
-    <div class='inner test-border anim'>
+    <div class='inner anim'>
       <ul class='nav pad2y'>
         <li><a href='#'>projects</a></li>
         <li><a href='#'>info</a></li>
@@ -24,5 +28,10 @@
   <div class='inner anim'>
     {{content}}
   </div>
+  <footer class='col12 clearfix pad1y block fl'>
+    <div class='inner anim test-border'>
+      yo, footer
+    </div>
+  </footer>
 </body>
 </html>

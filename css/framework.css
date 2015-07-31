@@ -68,6 +68,11 @@ table {
   transition: all .2s ease-in-out;
 }
 
+.fader{
+  -webkit-transition: opacity .35s ease;
+  -moz-transition: opacity .35s ease;
+}
+
 
 /*-------------------------------------------------------
   markup free clearing
@@ -231,15 +236,6 @@ img.inline, .inline           { display:inline-block; }
 
 .test-border{border: 1px solid red;}
 
-
-/*-------------------------------------------------------
-  animation
-------------------------------------------------------- */
-
-.fader{
-  -webkit-transition: opacity .35s ease;
-  -moz-transition: opacity .35s ease;
-}
 
 /*-------------------------------------------------------
   mobile

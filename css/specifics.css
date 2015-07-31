@@ -1,9 +1,10 @@
-.inner{ 
-	width: 66.6666%;
-	margin: 0 auto;
+/* 
+html{
+	border: 10px solid black;
 }
+*/
 
-.inner-wide{
+.inner{ 
 	width: 83.3333%;
 	margin: 0 auto;
 }
@@ -31,7 +32,7 @@
 
 	.nav li {
 		display: inline;
-		margin: 30px;
+		margin: 20px;
 	}
 
 .splash-img{
@@ -45,6 +46,10 @@
 	background-clip:content-box;
 	background-position: center center;
 }
+
+	.project:hover{
+		opacity: .75;
+	}
 
 /*-----------------------
 ******* KEYFRAMES *******
@@ -72,5 +77,5 @@
 ------------------------*/
 
 	@media only screen and (max-width:640px) {
-		.inner, .inner-wide { width: 100%; }
+		.inner { width: 100%; }
 	}

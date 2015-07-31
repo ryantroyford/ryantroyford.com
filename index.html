@@ -1,16 +1,9 @@
 ---
 layout: default
 ---
-<!-- 
-{% for item in site.categories.project %}
-  <a href='{{site.baseurl}}{{item.url}}' class='{{item.splashwidth}} {{item.float}} test-border pad1 row10'>
-  	<img src='{{item.image}}' class='splash-img'>
-  </a>
-{% endfor %}
--->
 
 {% for item in site.categories.project %}
-  <a href='{{site.baseurl}}{{item.url}}' class='{{item.splashwidth}} {{item.float}} pad1 row10 block project' 
+  <a href='{{site.baseurl}}{{item.url}}' class='{{item.splashwidth}} {{item.float}} pad1 row10 block project fader' 
   style='background-image: url( {{item.image}} );'>
   </a>
 {% endfor %}
