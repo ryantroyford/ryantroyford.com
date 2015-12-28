@@ -57,13 +57,13 @@ header ul li{
 	text-align: center;
 	position: relative;
 	box-sizing: border-box;
-	padding: 10px 0px 10px 0px;
+	max-width: none;
 }
 	.project:hover {opacity:.6;}
 
-.project img{
-	max-width: 100%;
-}
+	.project img{
+		max-width: 100%;
+	}
 
 .footer{
 	opacity: .35;
@@ -71,20 +71,34 @@ header ul li{
 
 .wall{
 	box-sizing: border-box;
-	padding-left: 20px;
-	padding-right: 20px;
+	position: relative;
+	margin: 0 auto;
+	/* 
+	hacky as fuck but i can't figure out that slight gap between columns 
+	this prevents horizontal overflow in desktop layout
+	*/
+	overflow: hidden;
 }
 
-.wall ul li{
-	text-decoration: none;
-	margin: 14px 0px 14px 8px;
-	line-height: 23px;
-}
+	.wall ul li{
+		text-decoration: none;
+		margin: 14px 0px 14px 8px;
+		line-height: 23px;
+	}
 
 .social li{
 	display: inline-block;
 }
 
+/*	posts
+------------------------------------------------------- */
+
+/*
+.post p img{
+	float: right;
+	width: 75%;
+}
+*/
 
 /*	animation
 ------------------------------------------------------- */
@@ -182,12 +196,6 @@ small{
 	.project{
 		padding: 10px 0px;
 		box-sizing: border-box;
-
-		/* 
-		hacky as fuck, but i'm a noob and can't figure out why jekyll is applying left:20px to all .project elements
-		this prevents horizontal overflow in mobile layouts
-		*/
-		margin-left: -20px;
 	}
 
 	.logo{
