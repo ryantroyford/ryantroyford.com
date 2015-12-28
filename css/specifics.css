@@ -93,31 +93,30 @@ header ul li{
 /*	projects
 ------------------------------------------------------- */
 
-.post .desc{
+.desc{
 	float: left;
 	width:25%;
-	position: fixed;
 }
 
-.post .img-column{
+.img-column{
 	float: right;
 	width: 75%;
 }
 
-/*	journal
-------------------------------------------------------- */
+	.img-column img{
+		width: 1200px;
+	}
 
-.journal .desc{
-	float: left;
-	width:25%;
-	border: 1px solid red;
-	height: 40px;
+.caption{
+	margin:0px 0px 20px 0px;
+	text-align: left;
+	font-style: italic;
 }
 
-.journal .img-column{
-	float: right;
-	width: 75%;
+.journal{
+	margin: 0px 10% 0px 10%;
 }
+
 
 /*	animation
 ------------------------------------------------------- */
@@ -212,6 +211,9 @@ small{
   mobile
 ------------------------------------------------------- */
 @media only screen and (max-width:640px) {
+	h2{
+		padding: 8px 0px;
+	}
 	.project{
 		padding: 10px 0px;
 		box-sizing: border-box;
@@ -238,4 +240,18 @@ small{
 	.social li{
 		display: list-item;
 	}
+
+	.desc{
+		float:none;
+		width: 100%;
+		padding-bottom: 20px;
+	}
+	.img-column{
+		float:none;
+		width: 100%;
+	}
+
+	.fixed{position: relative;}
+	.journal{margin: 0}
+
 }

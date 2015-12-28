@@ -219,6 +219,8 @@ img.inline, .inline           { display:inline-block; }
 
 .test-border{border: 1px solid red;}
 
+.fixed{position: fixed;}
+
 
 /*-------------------------------------------------------
   animation

@@ -4,11 +4,13 @@ title: photo
 ---
 
 {% for item in site.categories.photo %}
-	<div class='col12 pad2'>
-		<div class='#'>
-	  		<a href='{{item.permalink}}'><h2>{{item.title}}</h2></a>
-	  		<small class='space-bottom2'>{{item.date | date: '%B %-d, %Y'}}</small>
+	<div class='clearfix space-bottom2'>
+		<div class='desc'>
+			<a href='{{item.permalink}}'><h2>{{item.title}}</h2></a>
+	  		<small>{{item.date | date: '%B %-d, %Y'}}</small>
 	  	</div>
-	  	<a href='{{site.baseurl}}{{item.url}}'><img src="{{item.splash}}" class='space-top2'/></a>
+	  	<div class='img-column'>
+			<a href='{{site.baseurl}}{{item.url}}'><img src='{{item.splash}}' /></a>
+		</div>
 	</div>
 {% endfor %}

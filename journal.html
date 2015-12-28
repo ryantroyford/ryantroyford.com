@@ -1,15 +1,15 @@
 ---
-layout: journal
+layout: post
 ---
 
 {% for item in site.categories.journal %}
-	<div class='space-bottom2 clearfix'>
-		<p class='desc clearfix'>
-			<a href='{{item.permalink}}'><h2>{{item.title}}</h2></a>
-			<small>{{item.date | date: '%B %-d, %Y'}}</small>
-		</p>
-		<p class='img-column'>
-			<a href='{{item.permalink}}'><img src='{{item.splash}}'/></a>
-		</p>
+<div class='clearfix space-bottom2'>
+	<div class='desc'>
+		<h2><a href='{{item.permalink}}'>{{item.title}}</a></h2>
+		<small>{{item.date | date: '%B %-d, %Y'}}</small>
 	</div>
+	<div class='img-column'>
+		<a href='{{item.permalink}}'><img src='{{item.splash}}'/></a>
+	</div>
+</div>
 {% endfor %}

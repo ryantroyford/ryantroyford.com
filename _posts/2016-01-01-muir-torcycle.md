@@ -6,7 +6,7 @@ permalink: /muir-torcycle
 image: /img/projects/muir-torcycle/thumb.png
 ---
 
-<div class='desc'>
+<div class='desc fixed'>
 	<p>there are really only two things i need to be happy in this world: a motorcycle and the outdoors. i combined them into a print using my favorite quote from the remarkably inspiring John Muir.</p>
 
 	<p>i've <a href='http://ryantroyford.bigcartel.com/product/muir-dercycle'>still got a few lying around</a> if you'd like to pick one up.</p>
