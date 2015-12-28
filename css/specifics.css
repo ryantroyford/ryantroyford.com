@@ -90,15 +90,34 @@ header ul li{
 	display: inline-block;
 }
 
-/*	posts
+/*	projects
 ------------------------------------------------------- */
 
-/*
-.post p img{
+.post .desc{
+	float: left;
+	width:25%;
+	position: fixed;
+}
+
+.post .img-column{
 	float: right;
 	width: 75%;
 }
-*/
+
+/*	journal
+------------------------------------------------------- */
+
+.journal .desc{
+	float: left;
+	width:25%;
+	border: 1px solid red;
+	height: 40px;
+}
+
+.journal .img-column{
+	float: right;
+	width: 75%;
+}
 
 /*	animation
 ------------------------------------------------------- */
