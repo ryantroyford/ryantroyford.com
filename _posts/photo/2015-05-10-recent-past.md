@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: journal
 title: the recent past
 category: photo
 url: /the-recent-past

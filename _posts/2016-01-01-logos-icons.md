@@ -10,7 +10,7 @@ image: /img/projects/logos-icons/thumb.png
 	img{padding:25px;}
 </style>
 
-<div class='logos'>
+<div class='col11 margin1'>
 	<img src='/img/projects/logos-icons/spacedog.png' class='col4' />
 	<img src='/img/projects/logos-icons/camp-imgur-b.png' class='col4' />
 	<img src='/img/projects/logos-icons/vgnism-a.png' class='col4' />

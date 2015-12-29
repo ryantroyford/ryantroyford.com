@@ -90,12 +90,17 @@ header ul li{
 	display: inline-block;
 }
 
+.icons{
+
+}
+
 /*	projects
 ------------------------------------------------------- */
 
 .desc{
 	float: left;
 	width:25%;
+	padding-right: 10px;
 }
 
 .img-column{
@@ -116,6 +121,10 @@ header ul li{
 .journal{
 	margin: 0px 10% 0px 10%;
 }
+
+	.journal img{
+		width: 100%;
+	}
 
 
 /*	animation
@@ -245,6 +254,7 @@ small{
 		float:none;
 		width: 100%;
 		padding-bottom: 20px;
+		padding-right: none;
 	}
 	.img-column{
 		float:none;

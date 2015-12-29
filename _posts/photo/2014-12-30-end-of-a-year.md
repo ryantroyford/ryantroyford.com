@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: journal
 title: end of a year
 category: photo
 url: /2014-end-of-a-year

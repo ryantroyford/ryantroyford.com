@@ -6,24 +6,19 @@ permalink: /editorial
 image: /img/projects/editorial/thumb.png
 ---
 
-a collection of editorial illustrations to accompany blog posts, event invitations, tweets, articles, etc. 
+<div class='desc fixed'>
+	<p>a collection of editorial illustrations to accompany blog posts, event invitations, tweets, articles, etc.</p>
+</div>
 
-![editorial-1](/img/projects/editorial/a.jpg)
-
-![editorial-2](/img/projects/editorial/01.jpg)
-
-![editorial-3](/img/projects/editorial/02.jpg)
-
-![editorial-4](/img/projects/editorial/03.gif)
-
-![editorial-5](/img/projects/editorial/04.jpg)
-
-![editorial-6](/img/projects/editorial/05.jpg)
-
-![editorial-7](/img/projects/editorial/06.jpg)
-
-![editorial-8](/img/projects/editorial/07.jpg)
-
-![editorial-9](/img/projects/editorial/08.jpg)
-
-![editorial-10](/img/projects/editorial/09.gif)
+<ul class='img-column'>
+	<li><img src='/img/projects/editorial/a.jpg' alt='editorial-a'/></li>
+	<li><img src='/img/projects/editorial/01.jpg' alt='editorial-01'/></li>
+	<li><img src='/img/projects/editorial/02.jpg' alt='editorial-02'/></li>
+	<li><img src='/img/projects/editorial/03.gif' alt='editorial-03'/></li>
+	<li><img src='/img/projects/editorial/04.jpg' alt='editorial-04'/></li>
+	<li><img src='/img/projects/editorial/05.jpg' alt='editorial-05'/></li>
+	<li><img src='/img/projects/editorial/06.jpg' alt='editorial-06'/></li>
+	<li><img src='/img/projects/editorial/07.jpg' alt='editorial-07'/></li>
+	<li><img src='/img/projects/editorial/08.jpg' alt='editorial-08'/></li>
+	<li><img src='/img/projects/editorial/09.gif' alt='editorial-09'/></li>
+</uL>

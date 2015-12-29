@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: journal
 title: west coast 2013
 category: photo
 url: /2013-west-coast

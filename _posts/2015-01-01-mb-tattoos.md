@@ -6,8 +6,11 @@ permalink: /mapbox-tattoos
 image: /img/projects/mb-tattoos/thumb.png
 ---
 
-a series of small, tattoo flash-inspired illustrations to be sent out alongside tweets about Mapbox's committed relationship with ESRI. 
+<div class='desc fixed'>
+	<p>a series of small, tattoo flash-inspired illustrations to be sent out alongside tweets about Mapbox's committed relationship with ESRI.</p>
+</div>
 
-![mb-flash](/img/projects/mb-tattoos/mb-tattoos-1.jpg)
-
-![mb-flash](/img/projects/mb-tattoos/mb-tattoos-2.jpg)
+<ul class='img-column'>
+ 	<li><img src='/img/projects/mb-tattoos/mb-tattoos-1.jpg' alt='mb-flash'/></li>
+ 	<li><img src='/img/projects/mb-tattoos/mb-tattoos-2.jpg' alt='mb-flash'/></li>
+</ul>
