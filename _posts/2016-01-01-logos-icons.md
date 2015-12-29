@@ -25,4 +25,5 @@ image: /img/projects/logos-icons/thumb.png
 	<img src='/img/projects/logos-icons/osm-vote.png' class='col4' />
 	<img src='/img/projects/logos-icons/ska-revival.png' class='col4 center' />
 	<img src='/img/projects/logos-icons/heart-beaker.png' class='col4' />
+	<img src='/img/projects/logos-icons/umbranchor.png' class='col4' />
 </div>
