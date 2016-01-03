@@ -12,7 +12,6 @@ image: /img/projects/whale-onesie/splash.png
 
 
 <ul class='img-column'>
- 	<li><img src='/img/projects/kill-lincoln-poster/full.jpg' alt='kl-1'/></li>
- 	<li><img src='/img/projects/kill-lincoln-poster/01.jpg' alt='kl-2'/></li>
- 	<li><img src='/img/projects/kill-lincoln-poster/02.jpg' alt='kl-3'/></li>
+ 	<li><img src='/img/projects/whale-onesie/full.jpg' alt='whale-1'/></li>
+ 	<li><img src='/img/projects/whale-onesie/02.jpg' alt='whale-3'/></li>
  </ul> 
