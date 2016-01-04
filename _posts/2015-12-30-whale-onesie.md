@@ -7,7 +7,7 @@ image: /img/projects/whale-onesie/splash.png
 ---
 
 <div class='desc fixed'>
-	<p>whale onesie.</p>
+	<p>while my cousin Mason was still cooking, i decided to make him something special to throw up all over.</p>
 </div>
 
 
