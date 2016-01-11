@@ -57,13 +57,13 @@ header ul li{
 	text-align: center;
 	position: relative;
 	box-sizing: border-box;
-	padding: 10px 0px 10px 0px;
+	max-width: none;
 }
 	.project:hover {opacity:.6;}
 
-.project img{
-	max-width: 100%;
-}
+	.project img{
+		max-width: 100%;
+	}
 
 .footer{
 	opacity: .35;
@@ -71,19 +71,60 @@ header ul li{
 
 .wall{
 	box-sizing: border-box;
-	padding-left: 20px;
-	padding-right: 20px;
+	position: relative;
+	margin: 0 auto;
+	/* 
+	hacky as fuck but i can't figure out that slight gap between columns 
+	this prevents horizontal overflow in desktop layout
+	*/
+	overflow: hidden;
 }
 
-.wall ul li{
-	text-decoration: none;
-	margin: 14px 0px 14px 8px;
-	line-height: 23px;
-}
+	.wall ul li{
+		text-decoration: none;
+		margin: 14px 0px 14px 8px;
+		line-height: 23px;
+	}
 
 .social li{
 	display: inline-block;
 }
+
+.icons{
+
+}
+
+/*	projects
+------------------------------------------------------- */
+
+.desc{
+	float: left;
+	width:25%;
+	padding-right: 10px;
+}
+
+.img-column{
+	float: right;
+	width: 75%;
+}
+
+	.img-column img{
+		width: 1200px;
+	}
+
+.caption{
+	margin:0px 0px 20px 0px;
+	text-align: left;
+	font-style: italic;
+}
+
+.journal{
+	margin: 0px 10% 0px 10%;
+}
+
+	.journal img{
+		width: 100%;
+	}
 
 
 /*	animation
@@ -179,15 +220,12 @@ small{
   mobile
 ------------------------------------------------------- */
 @media only screen and (max-width:640px) {
+	h2{
+		padding: 8px 0px;
+	}
 	.project{
 		padding: 10px 0px;
 		box-sizing: border-box;
-
-		/* 
-		hacky as fuck, but i'm a noob and can't figure out why jekyll is applying left:20px to all .project elements
-		this prevents horizontal overflow in mobile layouts
-		*/
-		margin-left: -20px;
 	}
 
 	.logo{
@@ -211,4 +249,19 @@ small{
 	.social li{
 		display: list-item;
 	}
+
+	.desc{
+		float:none;
+		width: 100%;
+		padding-bottom: 20px;
+		padding-right: none;
+	}
+	.img-column{
+		float:none;
+		width: 100%;
+	}
+
+	.fixed{position: relative;}
+	.journal{margin: 0}
+
 }

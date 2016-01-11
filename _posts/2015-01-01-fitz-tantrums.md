@@ -6,10 +6,13 @@ permalink: /fitz-tantrums
 image: /img/projects/fitz/thumb.png
 ---
 
-Fitz & the Tantrums were playing a Lollapalooza aftershow, and needed a poster for the event. not only were they cool enough to have me do it, but they even sent me back a signed copy once everything was done.
+<div class='desc fixed'>
+	<p>Fitz & the Tantrums were playing a Lollapalooza aftershow, and needed a poster for the event. not only were they cool enough to have me do it, but they even sent me back a signed copy once everything was done.</p>
 
-3 colors, all hand-drawn, printed on French Speckletone Madero Beach, 19x15, edition of 100-ish. coordinated by the wonderful [Dan Polyak](http://danpolyak.com/).
+	<p>3 colors, all hand-drawn, printed on French Speckletone Madero Beach, 19x15, edition of 100-ish. coordinated by the wonderful <a href='http://danpolyak.com/'>Dan Polyak</a>.</p>
+</div>
 
-![fitz-1](/img/projects/fitz/fitz-1.jpg)
-
-![fitz-2](/img/projects/fitz/fitz-2.jpg)
+<ul class='img-column'>
+	<li><img src='/img/projects/fitz/fitz-1.jpg' alt='fitz-1'/></li>
+	<li><img src='/img/projects/fitz/fitz-2.jpg' alt='fitz-2'/></li>
+</ul>

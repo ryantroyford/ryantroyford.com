@@ -3,10 +3,13 @@ layout: post
 ---
 
 {% for item in site.categories.journal %}
-	<div class='pad2'>
-		<a href='{{item.permalink}}'><h2>{{item.title}}</h2></a>
+<div class='clearfix space-bottom2'>
+	<div class='desc center'>
+		<h2><a href='{{item.permalink}}'>{{item.title}}</a></h2>
 		<small>{{item.date | date: '%B %-d, %Y'}}</small>
-		<a href='{{item.permalink}}'><img src='{{item.splash}}' class='space-top2'/></a>
-		<p class='pad2y'>{{item.preview}}</p>
 	</div>
+	<div class='img-column'>
+		<a href='{{item.permalink}}'><img src='{{item.splash}}'/></a>
+	</div>
+</div>
 {% endfor %}

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: journal
 title: going analog
 category: photo
 url: /2013-learning-film
