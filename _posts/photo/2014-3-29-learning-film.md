@@ -2,7 +2,7 @@
 layout: journal
 title: going analog
 category: photo
-url: /photo/2013-learning-film
+url: /photo/2013-learning-film/
 permalink: /photo/2013-14-learning-film
 splash: /img/photo/2013-14-learning-film/teaser.jpg
 ---
