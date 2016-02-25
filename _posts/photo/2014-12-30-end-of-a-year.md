@@ -2,7 +2,7 @@
 layout: journal
 title: end of a year
 category: photo
-url: /2014-end-of-a-year
+url: /photo/2014-end-of-a-year
 permalink: /photo/2014-end-of-a-year
 splash: /img/photo/2014-end-of-a-year/teaser.jpg
 ---
