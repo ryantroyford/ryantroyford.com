@@ -2,7 +2,7 @@
 layout: journal
 title: the recent past
 category: photo
-url: /the-recent-past
+url: /photo/the-recent-past
 permalink: /photo/the-recent-past
 splash: /img/photo/2015-recent-past/teaser.jpg
 ---
