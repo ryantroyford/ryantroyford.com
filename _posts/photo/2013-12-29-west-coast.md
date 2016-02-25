@@ -2,7 +2,7 @@
 layout: journal
 title: west coast 2013
 category: photo
-url: /photo/2013-west-coast/
+url: /photo/2013-west-coast
 permalink: /photo/2013-west-coast
 splash: /img/photo/2013-west-coast/teaser.jpg
 ---
