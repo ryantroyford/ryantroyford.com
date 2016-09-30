@@ -1,9 +1,9 @@
 ---
 layout: journal
-title: fear & doubt co.
-permalink: /fear-and-doubt
+title: anxiety & doubt co.
+permalink: /anxiety-and-doubt
 preview: 
-splash: /img/blog/fear-doubt.jpg
+splash: /img/blog/anxiety-doubt.jpg
 category: journal
 published: true
 ---
