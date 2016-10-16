@@ -3,14 +3,11 @@ layout: post
 title: photo
 ---
 
-hello1
 {% for item in site.categories.photo %}
-hello2
 	<div class='clearfix space-bottom2'>
 		<div class='desc center'>
 			<a href='{{item.permalink}}'><h2>{{item.title}}</h2></a>
 	  		<small>{{item.date | date: '%B %-d, %Y'}}</small>
-	  		hello3
 	  	</div>
 	  	<div class='img-column'>
 			<a href='{{site.baseurl}}{{item.url}}'><img src='{{item.splash}}' /></a>
