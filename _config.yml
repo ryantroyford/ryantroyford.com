@@ -1,3 +1,4 @@
 baseurl:
 permalink: /:title
 markdown: kramdown
+future: true
