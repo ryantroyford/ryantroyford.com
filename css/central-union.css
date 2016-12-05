@@ -1,7 +1,7 @@
 body{
   margin: 0;
   padding: 0;
-  background-image: url(../img/projects/central-union-mission/brickwall-inv.jpg);
+  background-image: url(/img/brickwall.jpg);
   background-attachment: fixed;
 }
 
@@ -54,7 +54,7 @@ h2 a:hover{
 }
 
 .head-img{
-  background-image: url(../img/projects/central-union-mission/central-union-mission-wide.jpg);
+  background-image: url(/img/central-union-mission-wide.jpg);
   background-size: cover;
   background-position: 0 70%;
 }

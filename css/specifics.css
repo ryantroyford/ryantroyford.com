@@ -48,7 +48,10 @@ header ul li{
 	}
 
 .fade{opacity: .35;}
-.social li{display: inline-block;}
+.social li{
+	display: inline-block;
+	margin: 10px 10px;
+}
 
 /*	projects
 ------------------------------------------------------- */
@@ -91,8 +94,12 @@ header ul li{
 		width: 100%;
 	}
 
-.iframe{
-	border: solid 10px black;
+.vimeo-embed{
+	position: relative; 
+	padding-bottom: 56.25%; 
+	height: 0; 
+	overflow: hidden; 
+	max-width: 100%;
 }
 
 /*	animation
