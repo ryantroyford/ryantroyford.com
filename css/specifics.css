@@ -1,10 +1,4 @@
-html{
-	border-top: 10px solid #222;
-	background-image: url(/img/paper.png);
-}
-
 header{
-	/* border-bottom: 10px solid #222; */
 	z-index: 1000;
 	position: relative;
 	padding-bottom: 10px;
@@ -19,7 +13,7 @@ header a{
 }
 
 	header a:hover{
-		color:#707070;
+		color:#989898;
 	}
 
 header ul{
@@ -53,49 +47,20 @@ header ul li{
   		animation: hands 1.5s steps(6) infinite;
 	}
 
-.project{
-	text-align: center;
-	position: relative;
-	box-sizing: border-box;
-	max-width: none;
-}
-	.project:hover {opacity:.6;}
-
-	.project img{
-		max-width: 100%;
-	}
-
-.fade{
-	opacity: .35;
-}
-
-.wall{
-	box-sizing: border-box;
-	position: relative;
-	margin: 0 auto;
-	/* 
-	hacky as fuck but i can't figure out that slight gap between columns 
-	this prevents horizontal overflow in desktop layout
-	*/
-	overflow: hidden;
-}
-
-	.wall ul li{
-		text-decoration: none;
-		margin: 14px 0px 14px 8px;
-		line-height: 23px;
-	}
-
-.social li{
-	display: inline-block;
-}
-
-.icons{
-
-}
+.fade{opacity: .35;}
+.social li{display: inline-block;}
 
 /*	projects
 ------------------------------------------------------- */
+.row{
+	position: relative;
+	display: block;
+	padding: 10px 0px 0px 10px;
+}
+
+.wall{
+	position: relative;
+}
 
 .desc{
 	float: left;
@@ -125,7 +90,6 @@ header ul li{
 	.journal img{
 		width: 100%;
 	}
-
 
 /*	animation
 ------------------------------------------------------- */
@@ -263,5 +227,4 @@ small{
 
 	.fixed{position: relative;}
 	.journal{margin: 0}
-
 }

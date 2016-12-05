@@ -87,19 +87,21 @@ img{max-width: 100%;}
   columns
 ------------------------------------------------------- */
 
-.col0    { float:left; width:04.1666%; max-width:50px; }
-.col1    { float:left; width:08.3333%; max-width:100px; }
-.col2    { float:left; width:16.6666%; max-width:200px; }
-.col3    { float:left; width:25.0000%; max-width:300px; }
-.col4    { float:left; width:33.3333%; max-width:400px; }
-.col5    { float:left; width:41.6666%; max-width:500px; }
-.col6    { float:left; width:50.0000%; max-width:600px; }
-.col7    { float:left; width:58.3333%; max-width:700px; }
-.col8    { float:left; width:66.6666%; max-width:800px; }
-.col9    { float:left; width:75.0000%; max-width:900px; }
-.col10   { float:left; width:83.3333%; max-width:1000px; }
-.col11   { float:left; width:91.6666%; max-width:1100px; }
+.col0    { float:left; width:04.1666%; }
+.col1    { float:left; width:08.3333%; }
+.col2    { float:left; width:16.6666%; }
+.col3    { float:left; width:25.0000%; }
+.col4    { float:left; width:33.3333%; }
+.col5    { float:left; width:41.6666%; }
+.col6    { float:left; width:50.0000%; }
+.col7    { float:left; width:58.3333%; }
+.col8    { float:left; width:66.6666%; }
+.col9    { float:left; width:75.0000%; }
+.col10   { float:left; width:83.3333%; }
+.col11   { float:left; width:91.6666%; }
 .col12   { width:100%; display:block; }
+
+.col3-logo    { float:left; width:25.0000%; }
 
 .margin0  { margin-left:04.1666%; }
 .margin1  { margin-left:08.3333%; }
@@ -217,19 +219,13 @@ img.inline, .inline           { display:inline-block; }
 .border-l{border-left: 1px solid rgba(0,0,0,0.25);}
 .border-r{border-right: 1px solid rgba(0,0,0,0.25);}
 
+/* test/debug properties */
 .test-border{border: 1px solid red;}
+.red{background-color: red;}
+.blue{background-color: blue;}
+.yellow{background-color: yellow;}
 
 .fixed{position: fixed;}
-
-
-/*-------------------------------------------------------
-  animation
-------------------------------------------------------- */
-
-.fader{
-  -webkit-transition: opacity .35s ease;
-  -moz-transition: opacity .35s ease;
-}
 
 /*-------------------------------------------------------
   mobile
@@ -252,6 +248,8 @@ img.inline, .inline           { display:inline-block; }
   .row14 { height:auto; min-height: 560px;}
   .row15 { height:auto; min-height: 600px;}
   .row16 { height:auto; min-height: 640px;}
+
+  .col3-logo    { float:left; width:50.0000%; }
 
   .col1,
   .col2,
