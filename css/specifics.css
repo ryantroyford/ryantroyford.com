@@ -55,6 +55,10 @@ header ul li{
 
 /*	projects
 ------------------------------------------------------- */
+.rotate{
+	transform: rotate(.25deg);
+}
+
 .row{
 	position: relative;
 	display: block;
