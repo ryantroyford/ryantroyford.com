@@ -229,6 +229,15 @@ small{
 		display: list-item;
 	}
 
+	.bio-photo{
+		width:50%;
+	}
+
+	.bio{
+		text-align: center;
+		padding: 0px 50px 0px 50px;
+	}
+
 	.desc{
 		float:none;
 		width: 100%;
