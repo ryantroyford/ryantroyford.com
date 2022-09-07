@@ -186,6 +186,11 @@ small{
 	opacity: .5;
 }
 
+.photo-desc{
+	margin-bottom: 20px;
+	border: 1px solid #D3D3D3;
+}
+
 .desaturate{
 	-webkit-filter: grayscale(100%); filter: grayscale(100%);
 	filter: grayscale(100%);
