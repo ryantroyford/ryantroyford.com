@@ -1,4 +1,65 @@
----
-layout: default
----
-<div class='col12 post pad2'>{{content}}</div>
+<!DOCTYPE HTML>
+
+<!-- hello world. this website was built from scratch by ryan. these are the lengths I go through to avoid paying for squarespace. -->
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link rel="stylesheet" href="/css/reset.css">
+<link rel="stylesheet" href="/css/type.css">
+<link rel="stylesheet" href="/css/framework.css">
+<link rel="stylesheet" href="/css/specifics.css">
+<link rel="stylesheet" href="/css/post.css">
+
+
+<link rel='shortcut icon' href='/img/favicon.ico' type='image/x-icon' />
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>RyanTroyFord.com | Designer, Illustrator, Animator, and Tinkerer with an Analog Spirit and Modern Approach.</title>
+  </head>
+  <body>
+
+<!-- Nav -->
+
+  <div class="row">
+    <div class="col-5 header-info">
+      <div class="logo"><a href="/"><img src="/img/logo.jpg"></a></div>
+      <div class="head-text">
+        <a class="main-link" href="/">Ryan Troy Ford</a>
+        <ul>
+          <li>Designer, illustrator, animator, and tinkerer with an analog spirit and modern approach.</li>
+          <li>Currently <a href="#">available for hire</a>.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="nav">
+      <ul class="#">
+        <li><a href="#">work</a></li>   
+        <li><a href="#">photo</a></li>
+        <li><a href="#">shop</a></li>
+        <li><a href="/info.html">info</a></li>
+      </ul>
+    </div>
+  </div>
+
+<!-- End Nav -->
+
+  <div class="col-10 clearfix center">
+    <div class="space-bottom2 pad2">
+      {{ content }}
+    </div>
+  </div>
+
+  <div class="PageNavigation">
+  {% if page.previous.url %}
+    <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+  {% endif %}
+  {% if page.next.url %}
+    <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+  {% endif %}
+</div>
+
+  </body>
+</html>

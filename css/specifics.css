@@ -1,114 +1,170 @@
-header{
-	z-index: 1000;
-	position: relative;
-	padding-bottom: 10px;
+
+.border{border: solid 1px #000;}
+
+
+/* ------------------------------------------------------
+  Navigation
+------------------------------------------------------ */
+
+.nav{
+	float: right;
+	margin: 1em 5%;
+  text-transform: uppercase;
 }
 
-header a{
-	color:#3e3e3e;
-	font-size: 16px;
-	font-style: italic;
-	letter-spacing: 2px;
-	font-weight: 400;
-}
-
-	header a:hover{
-		color:#989898;
-	}
-
-header ul{
-	height: 40px;
-	position: absolute;
-	top:50%;
-	margin-top: -20px;
-	right: 20px;
-}
-
-header ul li{
-	padding: 20px;
+.nav li{
+  font-family: "Rubik", Helvetica, Arial, sans-serif;
 	display: inline-block;
-	vertical-align: middle;
-	text-transform: uppercase;
+	text-align: center;
+	padding: 10px;
+  font-size: .8em;
+}
+
+.nav li a{
+  text-decoration: none;
+  color:#666;
+}
+
+.nav li a:hover{
+  opacity: .5;
+  transition: .3s ease;
+}
+
+.main-link{
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.header-info{
+  padding:10px;
+  font-family: "Rubik", Helvetica, Arial, sans-serif;
+}
+
+.head-text{
+  margin-top: 5px;
+}
+
+.head-text a{
+  text-decoration: none;
+  color:#666;
+}
+
+.head-text a:hover{
+  opacity: .5;
+  transition: .3s ease;
+}
+
+.head-text ul{
+  list-style: none;
+  margin: 0;
+  padding:0;
+  font-size: .8em;
+}
+
+.head-text li{
+  margin: 5px;
 }
 
 .logo{
-	width: 125px;
-	height: 125px;
-	background-image: url(/img/hands-sprite.png);
-	background-repeat: repeat-x;
-	background-position: 0px; center;
-	margin-left: 50px;
+  float: left;
+  margin-right: 10px;
 }
 
-	.logo:hover{
-		-webkit-animation: hands 1.5s steps(6) infinite;
-  		-moz-animation: hands 1.5s steps(6) infinite;
-  		-o-animation: hands 1.5s steps(6) infinite;
-  		animation: hands 1.5s steps(6) infinite;
-	}
 
-.fade{opacity: .35;}
-.social li{
+/* Rest of the page */
+
+h1{
+  margin: 0px 0px 30px 0px;
+}
+
+.work-item{
+	list-style: none;
 	display: inline-block;
-	margin: 10px 10px;
 }
 
-/*	projects
-------------------------------------------------------- */
-.rotate{
-	transform: rotate(.25deg);
+/* ------  Image Hover ------ */ 
+
+.img-desc {
+  position: relative;
+  width: 50%;
+  height: auto;
+  /* height: 350px; */
+  overflow: hidden;
+  object-fit: contain;
+  min-height: 0.125rem;
 }
 
-.row{
-	position: relative;
-	display: block;
-	padding: 10px 0px 0px 10px;
+.work-image {
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  overflow: auto;
+
+  object-fit: cover;
+  width: 100%;
+  height: 350px;
 }
 
-.wall{
-	position: relative;
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
 }
 
-.desc{
-	float: left;
-	width:25%;
-	padding-right: 10px;
+.img-desc:hover .work-image {
+  opacity: 0.3;
 }
 
-.img-column{
-	float: right;
-	width: 75%;
+.img-desc:hover .middle {
+  opacity: 1;
 }
 
-	.img-column img{
-		width: 1200px;
-	}
-
-.caption{
-	margin:0px 0px 20px 0px;
-	text-align: left;
-	font-style: italic;
+.text {
+  /* background-color: #04AA6D; */
+  color: black;
+  font-size: 16px;
+  padding: 16px 32px;
 }
 
-.journal{
-	margin: 0px 10% 0px 10%;
-}
-
-	.journal img{
-		width: 100%;
-	}
-
-.vimeo-embed{
-	position: relative; 
-	padding-bottom: 56.25%; 
-	height: 0; 
-	overflow: hidden; 
-	max-width: 100%;
-}
-
-/*	animation
+/* ------------------------------------------------------
+  MEDIA QUERIES
 ------------------------------------------------------- */
 
+@media only screen and (max-width: 33.75em) {  /* 540px */
+  .work-image {
+  	height: 200px;
+  }
+  .nav{
+  	width: 100%;
+  	float: left;
+  	text-align: center;
+  	margin-left: auto;
+  	margin-right: auto;
+  }
+  .nav ul{
+  	padding:0;
+  }
+  .header-info{
+  	text-align: center;
+  }
+  .logo{
+    float:none;
+    margin: 0;
+  }
+}
+
+
+
+
+/*	animation - unused but maintaining for posterity
+------------------------------------------------------- */
+/*
 @-webkit-keyframes hands {
     from { 
     	background-position: 0px center;
@@ -125,135 +181,5 @@ header ul li{
     	background-position: 750px center;
     }
 }
+*/
 
-
-
-/*	text & links
-------------------------------------------------------- */
-
-h1, 
-h2, 
-h3,{
-	/* font-family: 'Open Sans', sans-serif; */
-}
-
-h1{
-	font-size: 30px;
-	padding:16px 0px;
-	font-weight: 700;
-}
-
-h2{
-	font-size: 20px;
-	padding:16px 0px;
-	font-weight: 700;
-}
-
-h3{
-	font-size: 18px;
-	padding:16px 0px;
-	font-weight: 400;
-	font-style: italic;
-}
-
-p{
-	line-height: 23px;
-	margin: 14px 0px;
-}
-
-body{
-	color:#3e3e3e;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 400;
-}
-
-body em{font-style: italic;}
-body strong{font-weight: 700;}
-
-a{
-  text-decoration: none;
-  /* color:#3b95d6; */
-  color: #c6b437;
-}
-  a:hover{
-  	/* color:#62aee7; */
-  	color: #dfce56;
-  }
-
-small{
-	font-size: 14px;
-	font-style: italic;
-	opacity: .5;
-}
-
-.photo-desc{
-	margin-bottom: 20px;
-	border: 1px solid #D3D3D3;
-}
-
-.desaturate{
-	-webkit-filter: grayscale(100%); filter: grayscale(100%);
-	filter: grayscale(100%);
-}
-	.desaturate:hover{
-		-webkit-filter: grayscale(0%); filter: grayscale(0%);
-		filter: grayscale(0%);
-	}
-
-/*-------------------------------------------------------
-  mobile
-------------------------------------------------------- */
-@media only screen and (max-width:640px) {
-	h2{
-		padding: 8px 0px;
-	}
-	.project{
-		padding: 10px 0px;
-		box-sizing: border-box;
-	}
-
-	.logo{
-		float: none;
-		display: inline-block;
-		margin: 0px auto;
-		background-image: url(/img/hand.png);
-	}
-
-	header ul{
-		width: 100%;
-		right: 0;
-		position: relative;
-		float: right;
-		margin: 0 auto;
-	}
-	header ul li{
-		font-size: 8px;
-		padding:5px;
-	}
-	.social li{
-		display: list-item;
-	}
-
-	.bio-photo{
-		width:85%;
-	}
-
-	.bio{
-		text-align: center;
-		padding: 0px 50px 0px 50px;
-	}
-
-	.desc{
-		float:none;
-		width: 100%;
-		padding-bottom: 20px;
-		padding-right: none;
-	}
-	.img-column{
-		float:none;
-		width: 100%;
-	}
-
-	.fixed{position: relative;}
-	.journal{margin: 0}
-}

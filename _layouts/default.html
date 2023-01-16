@@ -1,36 +1,133 @@
----
----
-<!-- 
-this modest website was handmade by ryan, out in the open, using github, ruby, jekyll, cheap beer, vegan food, and Tom Waits records. 
--->
+<!DOCTYPE HTML>
 
-<!DOCTYPE html>
+<!-- hello world. this website was built from scratch by ryan. these are the lengths I go through to avoid paying for squarespace. -->
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link rel="stylesheet" href="/css/reset.css">
+<link rel="stylesheet" href="/css/type.css">
+<link rel="stylesheet" href="/css/framework.css">
+<link rel="stylesheet" href="/css/specifics.css">
+
+
+<link rel='shortcut icon' href='/img/favicon.ico' type='image/x-icon' />
 <html>
-<head>
-	<title>RTF | Design Illustration Animation</title>
-  <meta charset='UTF-8'/>
-  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-  <link href='{{site.baseurl}}/css/framework.css' rel='stylesheet' />
-  <link href='{{site.baseurl}}/css/specifics.css' rel='stylesheet' />
-  <link rel='shortcut icon' href='/img/favicon.ico' type='image/x-icon' />
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700' rel='stylesheet' type='text/css'>
-</head>
-<body>
-  <header class='col10 margin1 center clearfix pad4y'>
-    <a href='/' class='logo fl'></a>
-    <ul>
-      <!-- <li class='hide-mobile'><a href='/'>projects</a></li> -->
-      <li><a href='/info.html'>info</a></li>
-      <li><a href='/photo'>photo</a></li>
-      <!--<li><a href='/journal.html'>journal</a></li>-->
-      <li><a href='http://ryantroyford.bigcartel.com/'>store</a></li>
-    </ul>
-  </header>
-  <div class='wall pad2y clearfix col12'>
-    {{content}}
+  <head>
+    <meta charset="utf-8">
+    <title>RyanTroyFord.com | Designer, Illustrator, Animator, and Tinkerer with an Analog Spirit and Modern Approach.</title>
+  </head>
+  <body>
+
+<!-- Nav -->
+
+  <div class="row">
+  	<div class="col-5 header-info">
+      <div class="logo"><a href="/"><img src="/img/logo.jpg"></a></div>
+      <div class="head-text">
+        <a class="main-link" href="/">Ryan Troy Ford</a>
+        <ul>
+    		  <li>Designer, illustrator, animator, and tinkerer with an analog spirit and modern approach.</li>
+          <li>Currently <a href="#">available for hire</a>.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="nav">
+      <ul class="#">
+        <li><a href="#">work</a></li>   
+        <li><a href="#">photo</a></li>
+        <li><a href="#">shop</a></li>
+        <li><a href="/info.html">info</a></li>
+      </ul>
+  	</div>
   </div>
-  <div class='footer center col12 space-bottom8 fade'>
-    <p>fu©k it™</br> ryan troy ford 1988-2071<p>
+
+<!-- End Nav -->
+
+
+<!-- Main Body Container -->
+
+  <div class="col-11 clearfix center">
+    
+    <!-- if you wanted to add to the page above featured projects, the div below will post any content found in the index.md file -->
+
+    <div class="space-bottom2">
+      {{ content }}
+    </div>
+
+    <!-- featuured post loop -->
+
+    <div class="clearfix">
+
+      <H1>Featured Projects</H1>
+
+      {% for post in site.posts %}
+      <div class="col-4 img-desc pad1 fl">
+        <a href="{{ post.url }}">
+          <img src="{{ post.image | prepend: site.baseurl }}" alt="{{ post.imgalt }}" class="work-image">
+        </a>
+        <div class="middle">
+          <a href="{{ post.url }}">
+            <div class="text">{{ post.title }}</div>
+          </a>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+
+    <!-- end featured posts -->
+
+    <!-- Bottom Projects -->
+    <div class="clearfix">
+      <div class="space-top8 blocks">
+        <H1>Everything else</H1>
+      </div>
+
+      <div class='row center col10 margin1 space-bottom8 space-top4'>
+        <div class='col-4 pad4'><img src='img/projects/keystone-B.png'></div>
+        <div class='col-4'><img src='img/projects/keystone-A.png'></div>
+        <div class='col-4 pad4'><img src='img/projects/keystone-C.png'></div>
+      </div>
+
+      <div class='row center col8 margin2'>
+        <div class='col-12 pad8x'><img src='img/projects/g2c-spread.png'></div>
+      </div>
+
+      <div class='row center col10 margin1'>
+        <div class='col-6 pad8x'><img src='img/projects/826-badge.gif'></div>
+        <div class='col-6 pad8x'><img src='img/projects/matt40.png'></div>
+      </div>
+
+      <div class='row center col10 margin1 space-top8 space-bottom4'>
+        <div class='col-12 pad8x'><img src='img/projects/mopop-icons.png'></div>
+      </div>
+
+      <div class='row center col8 margin2'>
+        <div class='col-12 pad2'><img src='img/projects/science.jpg'></div>
+      </div>
+
+      <div class='row center col10 margin1 space-top4 space-bottom4'>
+        <div class='col-6 pad2'><img src='img/projects/HoS-book-A.png'></div>
+        <div class='col-6 pad2'><img src='img/projects/HoS-book-B.png'></div>
+      </div>
+
+      <div class='row center col10 margin1'>
+        <div class='col-12 pad2x'><img src='img/projects/stereo.jpg'></div>
+      </div>
+    </div>
+
+    <!-- End Bottom Projects -->
+
   </div>
-</body>
+
+<!-- End Main Body Container -->
+
+  <div class="col-11 border pad4 footer border center">
+    <div class="col-5 border center">
+      <p>fu©k it™<br/>ryan troy ford 1988-2071</p>
+    </div>
+  </div>
+
+  </body>
 </html>
