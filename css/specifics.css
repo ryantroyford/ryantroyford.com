@@ -36,7 +36,7 @@
 }
 
 .header-info{
-  padding:10px;
+  padding:5px;
   font-family: "Rubik", Helvetica, Arial, sans-serif;
 }
 
@@ -58,11 +58,11 @@
   list-style: none;
   margin: 0;
   padding:0;
-  font-size: .8em;
+  font-size: .75em;
 }
 
 .head-text li{
-  margin: 5px;
+  margin: 3px;
 }
 
 .logo{
@@ -117,16 +117,23 @@ h1{
   text-align: center;
 }
 
+.middle a{
+  text-decoration: none;
+  font-family: "Rubik", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+}
+
 .img-desc:hover .work-image {
-  opacity: 0.3;
+  opacity: 0.2;
 }
 
 .img-desc:hover .middle {
   opacity: 1;
 }
 
-.text {
+.post-title {
   /* background-color: #04AA6D; */
+  text-transform: uppercase;
   color: black;
   font-size: 16px;
   padding: 16px 32px;
